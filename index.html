@@ -1,22 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Clock</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./styles.css">
 </head>
-<body>
-    <div class="mainClock"> <div class="heading"><h1>
-        Hey you! do you know the time?
-    </h1></div>
-    <div id="user-location" class="clock"></div></div>
-    <div class="majorCities">
-  <div class="newYork">New York<div id="new-york" class="clock"></div></div>
-  <div class="london">London<div id="london" class="clock"></div></div>
-  <div class="tokyo">Tokyo<div id="tokyo" class="clock"></div></div>
-</div>
 
-    <script src="/script.js"></script>
+<body>
+    <div class="top-content">
+        <h1 id="websiteName">Time'n'weather.com</h1>
+        <h1><a class="github" href="https://github.com/WelcomeParac/DigitalClock">Github</a></h1>
+    </div>
+    <div class="wrap">
+        <div class="search">
+            <input type="text" class="searchTerm" placeholder="Searching for a city?">
+            <button type="submit" class="searchButton">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="mainClock">
+            <div class="heading">
+                <h1>Hey you! Do you know the time?</h1>
+            </div>
+            <div id="user-location" class="main"></div>
+        </div>
+
+        <div id="major-cities-container">
+            <div class="majorCities">
+                <div class="newyorkclock">
+                    <div class="newYork">
+                        <div class="newyorkweather"><span class="degree">85&degF</span> New York</div>
+                        <div id="new-york" class="clock"></div>
+                    </div>
+                    <div class="extra-info">
+                        <div class="weather-description"></div>
+                        <div class="weather-temperature"></div>
+                        <div class="weather-minmax"></div>
+                    </div>
+                </div>
+
+                <div class="londonclock">
+                    <div class="london">
+                        <div class="londonweather"><span class="degree">74&degF</span> London</div>
+                        <div id="london" class="clock"></div>
+                    </div>
+                    <div class="extra-info">
+                        <div class="weather-description"></div>
+                        <div class="weather-temperature"></div>
+                        <div class="weather-minmax"></div>
+                    </div>
+                </div>
+
+                <div class="tokyoclock">
+                    <div class="tokyo">
+                        <div class="tokyoweather"><span class="degree">74&degF </span>Tokyo</div>
+                        <div id="tokyo" class="clock"></div>
+                    </div>
+                    <div class="extra-info">
+                        <div class="weather-description"></div>
+                        <div class="weather-temperature"></div>
+                        <div class="weather-minmax"></div>
+                    </div>
+                </div>
+
+                <div class="parisclock">
+                    <div class="paris">
+                        <div class="parisweather"><span class="degree">74&degF </span> Paris</div>
+                        <div id="paris" class="clock"></div>
+                    </div>
+                    <div class="extra-info">
+                        <div class="weather-description"></div>
+                        <div class="weather-temperature"></div>
+                        <div class="weather-minmax"></div>
+                    </div>
+                </div>
+
+                <div class="beijingclock">
+                    <div class="beijing">
+                        <div class="beijingweather"><span class="degree">74&degF </span> Beijing</div>
+                        <div id="beijing" class="clock"></div>
+                    </div>
+                    <div class="extra-info">
+                        <div class="weather-description"></div>
+                        <div class="weather-temperature"></div>
+                        <div class="weather-minmax"></div>
+                    </div>
+                </div>
+
+                <div class="sydneyclock">
+                    <div class="sydney">
+                        <div class="sydneyweather"><span class="degree">74&degF </span>Sydney</div>
+                        <div id="sydney" class="clock"></div>
+                    </div>
+                    <div class="extra-info">
+                        <div class="weather-description"></div>
+                        <div class="weather-temperature"></div>
+                        <div class="weather-minmax"></div>
+                    </div>
+                </div>
+
+                <div class="mexicocityclock">
+                    <div class="mexicocity">
+                        <div class="mexicocityweather"><span class="degree">74&degF </span> Mexico City</div>
+                        <div id="mexicocity" class="clock"></div>
+                    </div>
+                    <div class="extra-info">
+                        <div class="weather-description"></div>
+                        <div class="weather-temperature"></div>
+                        <div class="weather-minmax"></div>
+                    </div>
+                </div>
+
+                <div class="delhiclock">
+                    <div class="delhi">
+                        <div class="delhiweather"><span class="degree">74&degF </span> Delhi</div>
+                        <div id="delhi" class="clock"></div>
+                    </div>
+                    <div class="extra-info">
+                        <div class="weather-description"></div>
+                        <div class="weather-temperature"></div>
+                        <div class="weather-minmax"></div>
+                    </div>
+                </div>
+
+                <div class="mexicocityclock">
+                    <div class="mexicocity">
+                        <div class="mexicocityweather"><span class="degree">74&degF </span> Mexico City</div>
+                        <div id="mexicocity" class="clock"></div>
+                    </div>
+                    <div class="extra-info">
+                        <div class="weather-description"></div>
+                        <div class="weather-temperature"></div>
+                        <div class="weather-minmax"></div>
+                    </div>
+                </div>
+
+                <div class="mexicocityclock">
+                    <div class="mexicocity">
+                        <div class="mexicocityweather"><span class="degree">74&degF </span> Mexico City</div>
+                        <div id="mexicocity" class="clock"></div>
+                    </div>
+                    <div class="extra-info">
+                        <div class="weather-description"></div>
+                        <div class="weather-temperature"></div>
+                        <div class="weather-minmax"></div>
+                    </div>
+                </div>
+
+               
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
