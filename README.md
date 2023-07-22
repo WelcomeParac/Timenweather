@@ -2,10 +2,30 @@
 
 demo here: https://willowy-cassata-fc2741.netlify.app
 
-Time'n'weather  is a clock app showing a large list of cities across the world and their respective times. It shows the users correct time dependent on their locations. you are also able to search for a specific city and if that city is in the list it will show that clock by itself for you to see. 
+## Overview: 
 
-In the future, I plan on adding a weather api as well so that you can get a quick weather glimpse of that city on that very time. 
+- Time'n'weather  is a clock app showing a large list of cities across the world and their respective times. It shows the users correct time dependent on their locations. you are also able to search for a specific city and if that city is in the list it will show that clock by itself for you to see. 
 
-This is create in HTML, CSS, and Vanilla Javascript. However, in the near future when I learn more about React.js I will transition it to that for simplicity. 
+## Road Map: 
 
-I love just creating big minimalistic projects that look appealing to the eye and are also information and things that I would personally use. 
+1. Adding weather api to be able to see a glimspe of a city's weather.
+
+2. Adding global map showing the location of the city once you search for a city
+
+3. Adding the ability to make each city on the page clickable to take you to the same view as if you were searching for a city.
+
+4. Transitioning from vanilla javascript to react.js
+
+## What was used: 
+
+- HTML
+
+- CSS
+
+- Vanilla Javascript
+
+## Why I am intrigued in making this project: 
+
+- I want to be able to make something that I can use myself and something that I would think other people would use. 
+
+- I love creating semi-minimalistic or minimalistic projects that have a use case than creating complex overdone projects that have a use case but not as helpful functionality.
