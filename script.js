@@ -34,7 +34,7 @@ function highlightCity(city) {
     }
     setTimeout(() => {
       cityDiv.classList.remove('highlighted', 'faded', 'centered');
-    }, 7000);
+    }, 5000);
   });
 }
 
