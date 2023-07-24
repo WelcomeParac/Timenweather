@@ -1,123 +1,101 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
-* {
-    border: red solid 0px;
-}
-body{
-    background-color: #fafafa;
-    
-}
-.top-content{
-margin-left: 40px;
-margin-top: 40px;
-font-family: 'Inter', sans-serif;
-display: flex;
-align-items: center;
-justify-content: space-between;
-margin-right: 40px;
 
+* {
+  border: red solid 0px;
 }
-.github{
-    display: flex;
-    align-items: center;
-    
+
+body {
+  background-color: white;
+}
+
+.top-content {
+  margin-left: 40px;
+  margin-top: 40px;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 40px;
+}
+
+.github {
+  display: flex;
+  align-items: center;
+}
+
+#github {
+  color: black;
+  font-size: 60px;
+  transition: color 0.5s;
+  background-position: bottom;
+}
+
+#github:hover {
+  color: rgb(6, 87, 124);
 }
 
 a {
-	color: #18272F;
   position: relative;
   text-decoration: none;
 }
 
-a::before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 4px;
-  border-radius: 4px;
-  background-color: #18272F;
-  bottom: 0;
-  left: 0;
-  transform-origin: right;
-  transform: scaleX(0);
-  transition: transform .3s ease-in-out;
+.heading {
+  font-family: 'Inter', sans-serif;
+  color: rgb(0, 0, 0);
 }
 
-a:hover::before {
-  transform-origin: left;
-  transform: scaleX(1);
-}
-
-
-
-
-
-.heading{
-    font-family: 'Inter', sans-serif;
-    color: rgb(0, 0, 0);
-}
 .mainClock {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
-    margin: 0;
-    flex-direction: column;
-    font-family: 'Inter', sans-serif;
-    margin-bottom: 17%;
-    
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  margin: 0;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 17%;
 }
 
 .clock {
-    
-    cursor: crosshair;
-    
-    
+  cursor: crosshair;
 }
 
 #websiteName {
-    animation: slideInFromLeft 1s ease-in-out;
-  }
+  animation: slideInFromLeft 1s ease-in-out;
+}
 
-  @keyframes slideInFromLeft {
-    from {
-      transform: translateX(-100%);
-    }
-    to {
-      transform: translateX(0);
-    }
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%);
   }
-  .github{
-    animation: slideInFromLeft 1.5s ease-i
+  to {
+    transform: translateX(0);
   }
-  
+}
 
 #user-location {
-    font-size: 125px;
-    background-color: #0c5cc4;
-    height: 150px;
-    width: 950px;
-    border-radius: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-    
+  font-size: 125px;
+  background-color: rgb(6, 87, 124);
+  height: 150px;
+  width: 800px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 .majorCities {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: -10%;
-    text-align: center;
-    font-family: 'Inter', sans-serif;
-    transition: all 0.5s ease;
-    margin-left: 100px;
-    margin-right: 100px;
-    
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: -10%;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  transition: all 0.5s ease;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .newYork,
@@ -127,50 +105,42 @@ a:hover::before {
 .beijing,
 .sydney,
 .mexicocity,
-.delhi{
-    font-size: 35px; 
-    background-color: #0c5cc4;
-    height: 100px;
-    width: 300px;
-    border-radius: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    color: white;
-    transition: reot 0.5s ease;
-   
-    padding-top: 20px;
-    overflow: hidden; 
-    cursor: crosshair;
-    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+.delhi,
+.hongkong,
+.moscow {
+  font-size: 35px;
+  background-color: rgb(6, 87, 124);
+  height: 100px;
+  width: 300px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  padding-top: 20px;
+  overflow: hidden;
+  cursor: crosshair;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
-.newYork:hover,
-.tokyo:hover,
-.beijing:hover,
-.mexicocity:hover {
-    transform: rotate(-3deg) scale(1.2);
-    transition: all 1s;
-}
-.london:hover, .paris:hover, .sydney:hover, .delhi:hover{
-    transform: rotate(3deg) scale(1.2);
-    transition: all 1s;
-}
+
 .expanded {
-    height: 300px;
-    font-size: 40px; 
-    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  height: 300px;
+  font-size: 40px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  transition: box-shadow 0.3s ease;
 }
 
 .search {
   width: 100%;
   position: relative;
   display: flex;
+  margin-top: -10px;
 }
 
 .searchTerm {
   width: 100%;
-  border: 3px solid #0c5cc4;
+  border: 3px solid rgb(6, 87, 124);
   border-right: none;
   padding: 5px;
   height: 20px;
@@ -179,15 +149,15 @@ a:hover::before {
   color: #000000;
 }
 
-.searchTerm:focus{
+.searchTerm:focus {
   color: #000000;
 }
 
 .searchButton {
   width: 40px;
   height: 36px;
-  border: 1px solid #0c5cc4;
-  background: #0c5cc4;
+  border: 1px solid rgb(6, 87, 124);
+  background: rgb(6, 87, 124);
   text-align: center;
   color: #fff;
   border-radius: 0 5px 5px 0;
@@ -195,56 +165,69 @@ a:hover::before {
   font-size: 20px;
 }
 
-
-.wrap{
+.wrap {
   width: 325px;
   margin-left: 40px;
-  
-  
-  
 }
 
 .highlighted {
-  background-color: #0c5cc4;
-  transition: background-color 0.5s ease; 
+  background-color: rgb(6, 87, 124);
+  transition: background-color 0.5s ease;
 }
-
-
 
 .faded {
   opacity: 0;
-  transition: opacity 0.5s ease; 
+  transition: opacity 0.5s ease;
 }
 
 .centered {
+  margin-top: 100px;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(2);
 }
+
 .majorCities .highlighted .clock:hover {
-  transform: none; 
+  transform: none;
 }
-
-
 
 .majorCities .expanded {
-    font-size: 30px; 
-    transition: height 1.5s ease, font-size 0.5s ease;
-    justify-content: flex-start;
-    padding-top: 10px;
-    transform: rotate(0);
-    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;    transition: box-shadow 0.3s ease;
+  font-size: 30px;
+  transition: height 1.5s ease, font-size 0.5s ease;
+  justify-content: flex-start;
+  padding-top: 10px;
+  transform: rotate(0);
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  transition: box-shadow 0.3s ease;
 }
 
-
 .extra-info {
-    margin-top: 50px;
-    font-size: 30px;
-    color: #ccc;
+  margin-top: 50px;
+  font-size: 30px;
+  color: #ccc;
 }
 
 .degrees {
-    font-size: 40px;
+  font-size: 40px;
 }
 
+.error-message {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 5px;
+  padding: 8px 12px;
+  background-color: #f44336;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 14px;
+  display: none;
+  font-family: 'Inter', sans-serif;
+}
+
+.footer{
+  margin-top: 75px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
