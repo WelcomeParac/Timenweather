@@ -16,6 +16,8 @@ demo here: https://willowy-cassata-fc2741.netlify.app
 
 4. Transitioning from vanilla javascript to react.js
 
+5. plan to change the current layout to a more unique and interative layout that is still minimalistic. 
+
 ## What was used: 
 
 - HTML
