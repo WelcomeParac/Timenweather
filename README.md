@@ -1,5 +1,7 @@
 # Time'n'weather (Currently In Progress)
 
+This project is still inprogress so if you compile the code or view the demo and it doesn't look complete don't be worried.
+
 demo here: https://willowy-cassata-fc2741.netlify.app
 
 ## Overview: 
