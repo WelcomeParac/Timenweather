@@ -23,18 +23,26 @@ function updateUserLocationClock() {
 	clockDiv.textContent = `You ➔ ${hours}:${minutes} ${amPm}  / ${month}-${day}-${year}`;
 }
 
-function highlightCity( city ) {
-	const cityElements = document.querySelectorAll( '.clock' );
-	cityElements.forEach( ( element ) => {
-		const cityName = element.parentElement.textContent.trim();
-		const cityDiv = element.parentElement;
-		if ( cityName.toLowerCase().includes( city.toLowerCase() ) ) {
-			cityDiv.classList.add( 'highlighted' );
-		} else {}
-		setTimeout( () => {
-			cityDiv.classList.remove( 'highlighted' );
-		}, 3000 );
-	} );
+function highlightCity(city) {
+  let isCityHighlighted = false;
+
+  const cityElements = document.querySelectorAll('.cityname');
+  cityElements.forEach((element) => {
+    const cityName = element.textContent.trim();
+    const cityDiv = element.parentElement;
+
+    if (cityName.toLowerCase() === city.toLowerCase()) {
+      cityDiv.classList.add('highlighted');
+      isCityHighlighted = true;
+      setTimeout(() => {
+        cityDiv.classList.remove('highlighted');
+      }, 3000);
+    } else {
+      cityDiv.classList.remove('highlighted');
+    }
+  });
+
+  return isCityHighlighted;
 }
 
 function startClocks() {}
@@ -47,7 +55,8 @@ errorMessage.style.display = 'none';
 searchButton.parentNode.appendChild( errorMessage );
 searchButton.addEventListener( 'click', () => {
 	const searchTerm = searchInput.value.trim();
-	if ( searchTerm === '' ) {
+  const isCityHighlighted = highlightCity(searchTerm);
+	if ( searchTerm === '' || !isCityHighlighted ) {
 		showError();
 		return;
 	}
@@ -58,7 +67,8 @@ searchInput.addEventListener( 'keyup', ( event ) => {
 	if ( event.key === 'Enter' ) {
 		event.preventDefault();
 		const searchTerm = searchInput.value.trim();
-		if ( searchTerm === '' ) {
+    const isCityHighlighted = highlightCity(searchTerm);
+		if ( searchTerm === '' || !isCityHighlighted ) {
 			showError();
 			return;
 		}
