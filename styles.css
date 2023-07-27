@@ -85,7 +85,7 @@ a {
 	opacity: 0;
 }
 
-#websiteName {
+.websitename {
 	animation: slideInFromLeft 1s ease-in-out;
 }
 
@@ -356,9 +356,8 @@ a {
 
 .search {
 	width: 100%;
-	position: relative;
 	display: flex;
-	margin-top: -10px;
+	margin-top: -15px;
 }
 
 .searchTerm {
@@ -433,12 +432,15 @@ a {
 	font-family: 'Inter', sans-serif;
 }
 
-@media (min-width: 300px) and (max-width: 500px) {
+@media (min-width: 299px) and (max-width: 500px) {
 	.city {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 	}
+  .websitename{
+    font-size: 25px;
+  }
 	.top-content {
 		font-family: 'Inter', sans-serif;
 		justify-content: center;
@@ -447,10 +449,14 @@ a {
 	}
 	.heading {
 		text-align: center;
-		font-size: 13px;
+		font-size: 10px;
 	}
 	.search {
 		margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
 	}
 	#github {
 		font-size: 30px;
@@ -459,8 +465,7 @@ a {
 		margin-top: -90px;
 	}
 	#user-location {
-		display: flex;
-		justify-content: center;
-		align-items: center;
+		text-align: center;
+    font-size: 15px;
 	}
 }
