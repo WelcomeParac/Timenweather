@@ -62,19 +62,163 @@ a {
 	opacity: 1;
 	display: flex;
 	justify-content: center;
+	align-items: center
+}
+
+#newyorktitle{
+	font-size: 1.1rem;	 
+
+}
+
+#londontitle{
+	font-size: 1.85rem;	 
+
+}
+
+#tokyotitle{
+	font-size: 1.75rem;	 
+
+}
+
+#delhititle{
+	font-size: 1.5rem;	 
+
+}
+
+#mexicocitytitle{
+	font-size: .7rem;	 
+
+}
+
+#hongkongtitle{
+	font-size: 1.5rem;	 
+
+}
+
+#moscowtitle{
+	font-size: .8rem;	
+
+}
+
+#paristitle{
+	font-size: 1.25rem;	 
+
+}
+
+#beijingtitle{
+	font-size: 3rem;	 
+
+}
+
+#seoultitle{
+	font-size: 3rem;	 
+
+}
+
+#buenosairestitle{
+	font-size: 1.2rem;	 
+
+}
+
+#mumbaititle{
+	font-size: 1.75rem;	 
+
+}
+
+#sydneytitle{
+	font-size: 0.6rem;	 
+
+}
+
+#shanghaititle{
+	font-size: 1.1rem;	 
+
+}
+
+#manilatitle{
+	font-size: 1rem;	 
+
+}
+
+#lagostitle{
+	font-size: 1.5rem;	 
+
+}
+
+#istanbultitle{
+	font-size: 1.5rem;	 
+
+}
+
+#rometitle{
+	font-size: 3rem;	 
+
+}
+
+#cairotitle{
+	font-size: 2rem;	 
+
+}
+
+#dhakatitle{
+	font-size: 1rem;	 
+
+}
+
+#chicagotitle{
+	font-size: 1.1rem;	 
+
+}
+
+#losangelestitle{
+	font-size: 1.7rem;	 
+
+}
+
+#albasrahtitle{
+	font-size: 0.5rem;	 
+
+}
+
+#saopaulotitle{
+	font-size: 1.1rem;	 
+
+}
+
+#kievtitle{
+	font-size: 1.35rem;	 
+
+}
+
+.titlecontainer{
+	display: flex;
+	justify-content: center;
 	align-items: center;
 }
 
 .clock, .degree {
 	opacity: 0;
+	transition: opacity 0.5s ease;
+	
 }
+
+
+  
+
+
+
+
+
+
+
 
 .city:hover .clock {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	opacity: 1;
-	margin-top: -10%;
+	margin-top: -20%;
+	
 }
 
 .city:hover .degree {
@@ -84,6 +228,8 @@ a {
 .city:hover .cityname {
 	opacity: 0;
 }
+
+
 
 .websitename {
 	animation: slideInFromLeft 1s ease-in-out;
@@ -135,6 +281,7 @@ a {
 	color: white;
 	overflow: hidden;
 	cursor: pointer;
+	
 }
 
 .city:hover {
@@ -143,7 +290,7 @@ a {
 	position: absolute;
 	transform: scale(2);
 	z-index: 1;
-	transition: all 0.5s;
+	transition: all 1s;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -151,8 +298,12 @@ a {
 	color: white;
 	overflow: hidden;
 	cursor: pointer;
+	
 	box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
+
+
+
 
 .newYork {
 	width: 100px;
@@ -225,8 +376,10 @@ a {
 	height: 75px;
 	margin-left: 13%;
 	margin-top: 17%;
-	font-size: 0.6rem
+	font-size: 0.6rem;
 }
+
+
 
 .shanghai {
 	width: 100px;
