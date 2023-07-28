@@ -1,26 +1,27 @@
 # Time'n'weather (Currently In Progress)
 
-This project is still inprogress so if you compile the code or view the demo and it doesn't look complete don't be worried.
+This project is still a work in progress and I will be working on improvements day by day. need not to worry. *thumbs up*
 
 demo here: https://willowy-cassata-fc2741.netlify.app
 
-## Overview: 
+## Project Description: 
 
-- Time'n'weather  is a clock app showing a large list of cities across the world and their respective times. It shows the users correct time dependent on their locations. you are also able to search for a specific city and if that city is in the list it will show that clock by itself for you to see. 
+- Time'n'weather  is a clock app showing a large list of cities across the world and their respective times. It shows the users correct time dependent on their locations. you are able to search for a specific city and if that city is in the large list of cities it will show that clock by itself for you to see, as well as, show a global map that helps you understand where that city is located.
 
 ## Road Map: 
 
-1. Adding weather api to be able to see a glimspe of a city's weather.
+1. Integration of Weather API: Incorporation of weather data into the application, enabling users to obtain a glimpse of a city's current weather conditions alongside its local time.
 
-2. Adding global map showing the location of the city once you search for a city
+2. Global Map Integration: Implementation of a global map feature that dynamically showcases the searched city's location, enhancing the user's geographical understanding.
 
-3. Adding the ability to make each city on the page clickable to take you to the same view as if you were searching for a city.
+3. Enhanced Navigation: Introducing the functionality to make each city entry on the page clickable, leading users to a dedicated view similar to the city search results.
 
-4. Transitioning from vanilla javascript to react.js
+4. Transition to React.js: Migration from vanilla JavaScript to the modern React.js framework, bringing about improvements in performance, maintainability, and user interaction.
 
-5. plan to change the current layout to a more unique and interative layout that is still minimalistic. 
+5. Redesigned Layout: A planned transition from the current layout to a unique and interactive design, while maintaining the minimalistic essence of the application 
 
-## What was used: 
+## Technologies Utilized: 
+
 
 - HTML
 
@@ -28,8 +29,8 @@ demo here: https://willowy-cassata-fc2741.netlify.app
 
 - Vanilla Javascript
 
-## Why I am intrigued in making this project: 
+## Motivation behind the Project: 
 
-- I want to be able to make something that I can use myself and something that I would think other people would use. 
+- Personal Utility: The desire to create a practical application that not only fulfills personal wants and needs but helps other individuals as well.
 
-- I love creating semi-minimalistic or minimalistic projects that have a use case than creating complex overdone projects that have a use case but not as helpful functionality.
+- I love creating  minimalistic projects that have a purposeful functionality without unnecessary complexity.
