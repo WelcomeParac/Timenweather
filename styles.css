@@ -309,6 +309,59 @@ a {
 	width: 100px;
 	height: 100px;
 	font-size: 0.6rem;
+
+}
+
+.newYork:hover,
+.delhi:hover,
+.shanghai:hover,
+.buenosaires:hover,
+.lagos:hover,
+.chicago:hover{
+	transform: scale(2.5);
+
+}
+
+.london:hover,
+.hongkong:hover,
+.mumbai:hover,
+.losangeles:hover{
+	transform: scale(1.75);
+
+}
+
+.tokyo:hover,
+.istanbul:hover,
+.cairo:hover{
+	transform: scale(2);
+
+}
+
+.paris:hover,
+.mexicocity:hover,
+.moscow:hover,
+.manila:hover,
+.saopaulo:hover,
+.kiev:hover,
+.dhaka:hover{
+	transform: scale(3.5);
+
+}
+
+.seoul:hover,
+.rome:hover{
+	transform: scale(1.25);
+
+}
+
+.beijing:hover{
+	transform: scale(1.1);
+}
+
+.sydney:hover,
+.albasrah:hover{
+	transform: scale(5);
+
 }
 
 .london {
