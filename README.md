@@ -16,9 +16,7 @@ demo here: https://willowy-cassata-fc2741.netlify.app
 
 3. Enhanced Navigation: Introducing the functionality to make each city entry on the page clickable, leading users to a dedicated view similar to the city search results.
 
-4. Transition to React.js: Migration from vanilla JavaScript to the modern React.js framework, bringing about improvements in performance, maintainability, and user interaction.
-
-5. Redesigned Layout: A planned transition from the current layout to a unique and interactive design, while maintaining the minimalistic essence of the application 
+4. Redesigned Layout: A planned transition from the current layout to a unique and interactive design, while maintaining the minimalistic essence of the application 
 
 ## Technologies Utilized: 
 
