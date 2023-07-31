@@ -12,16 +12,18 @@ function updateClock( cityId, offset ) {
 }
 
 function updateUserLocationClock() {
-	const now = new Date();
-	const hours = now.getHours() % 12 || 12;
-	const minutes = String( now.getMinutes() ).padStart( 2, '0' );
-	const amPm = now.getHours() >= 12 ? 'PM' : 'AM';
-	const day = now.getDate();
-	const month = now.getMonth() + 1;
-	const year = now.getFullYear();
-	const clockDiv = document.getElementById( 'user-location' );
-	clockDiv.textContent = `You ➔ ${hours}:${minutes} ${amPm}  / ${month}-${day}-${year}`;
+    const now = new Date();
+    const hours = now.getHours() % 12 || 12;
+    const minutes = String(now.getMinutes()).padStart(2, '0');
+    const amPm = now.getHours() >= 12 ? 'PM' : 'AM';
+    const day = now.getDate();
+    const month = now.getMonth();
+    const year = now.getFullYear();
+    const monthsArray = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    const clockDiv = document.getElementById('user-location');
+    clockDiv.textContent = `${hours}:${minutes} ${amPm} - ${monthsArray[month]} ${day}, ${year}`;
 }
+
 
 function highlightCity(city) {
   let isCityHighlighted = false;
