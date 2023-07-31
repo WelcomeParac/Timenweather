@@ -1,378 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta content="width=device-width, initial-scale=1.0" name="viewport">
-		<title>
-			Digital Clock
-		</title>
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel=
-		"stylesheet">
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-		rel="stylesheet">
-		<link href="./styles.css" rel="stylesheet">
-	</head>
-	<body>
-		<div class="top-content">
-			<h1 class="websitename">
-				Timenweather.com
-			</h1>
-			<a class="github" href="https://github.com/WelcomeParac/DigitalClock"><i class="fa fa-github"
-			id="github"></i></a>
-		</div>
 
-		<div class="wrap">
-			<div class="search">
-				<input class="searchTerm" placeholder="Searching for a city?" type="text"> 
-            <button class="searchButton" type="submit"><i class="fa fa-search"></i></button>
-			</div>
+<head>
+   <meta charset="UTF-8">
+   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+   <title> Digital Clock </title>
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+   <link href="./styles.css" rel="stylesheet">
+</head>
+
+<body>
+   <div class="top-content">
+      <h1 class="websitename"> Timenweather.com </h1>
+      <a class="github" href="https://github.com/WelcomeParac/DigitalClock">
+         <i class="fa fa-github" id="github"></i>
+      </a>
+   </div>
+   <div class="wrap">
+      <div class="search">
+         <input class="searchTerm" placeholder="Searching for a city?" type="text">
+         <button class="searchButton" type="submit">
+            <i class="fa fa-search"></i>
+         </button>
+      </div>
+      <div class="main" id="user-location"></div>
+   </div>
+   <div class="main-container">
+      <div class="heading">
+         <h1> Hey you! Do you know the time? </h1>
+      </div>
+      <div id="major-cities-container">
+         <div class="majorCities">
+            <div class="newyorkclock">
+               <div class="city newYork">
+                  <span class="degree" id="newyorkdegrees">85&degF</span>
+                  <br>
+                  <div class="cityname" id="newyorktitle"> New York </div>
+                  <div class="clock" id="new-york"></div>
+               </div>
+            </div>
+            <div class="londonclock">
+               <div class="city london">
+                  <span class="degree" id="londondegrees">74&degF</span>
+                  <br>
+                  <div class="cityname" id="londontitle"> London </div>
+                  <div class="clock" id="london"></div>
+               </div>
+            </div>
+            <div class="tokyoclock">
+               <div class="city tokyo">
+                  <span class="degree" id="tokyodegrees">74&degF</span>
+                  <br>
+                  <div class="cityname" id="tokyotitle"> Tokyo </div>
+                  <div class="clock" id="tokyo"></div>
+               </div>
+            </div>
+            <div class="parisclock">
+               <div class="city paris">
+                  <span class="degree" id="parisdegrees">74&degF</span>
+                  <br>
+                  <div class="cityname" id="paristitle"> Paris </div>
+                  <div class="clock" id="paris"></div>
+               </div>
+            </div>
+            <div class="beijingclock">
+               <div class="city beijing">
+                  <span class="degree" id="beijingdegrees">74&degF</span>
+                  <br>
+                  <div class="cityname" id="beijingtitle"> Beijing </div>
+                  <div class="clock" id="beijing"></div>
+               </div>
+            </div>
+            <div class="sydneyclock">
+               <div class="city sydney">
+                  <span class="degree" id="sydneydegrees">74&degF</span>
+                  <br>
+                  <div class="cityname" id="sydneytitle"> Sydney </div>
+                  <div class="clock" id="sydney"></div>
+               </div>
+            </div>
+            <div class="mexicocityclock">
+               <div class="city mexicocity">
+                  <span class="degree" id="mexicocitydegrees">74&degF</span>
+                  <br>
+                  <div class="cityname" id="mexicocitytitle"> Mexico City </div>
+                  <div class="clock" id="mexicocity"></div>
+               </div>
+            </div>
+            <div class="delhiclock">
+               <div class="city delhi">
+                  <span class="degree" id="delhidegrees">74&degF</span>
+                  <br>
+                  <div class="cityname" id="delhititle"> Delhi </div>
+                  <div class="clock" id="delhi"></div>
+               </div>
+            </div>
+            <div class="hongkongclock">
+               <div class="city hongkong">
+                  <span class="degree" id="hongkongdegrees">74&degF</span>
+                  <br>
+                  <div class="cityname" id="hongkongtitle"> Hong Kong </div>
+                  <div class="clock" id="hongkong"></div>
+               </div>
+            </div>
+            <div class="moscowclock">
+               <div class="city moscow">
+                  <span class="degree" id="moscowdegrees">74&degF</span>
+                  <br>
+                  <div class="titlecontainer">
+                     <div class="cityname" id="moscowtitle"> Moscow </div>
+                  </div>
+                  <div class="clock" id="moscow"></div>
+               </div>
+            </div>
+            <div class="shanghaiclock">
+               <div class="city shanghai">
+                  <span class="degree" id="shanghaidegrees">74&degF</span>
+                  <br>
+                  <div class="cityname" id="shanghaititle"> Shanghai </div>
+                  <div class="clock" id="shanghai"></div>
+               </div>
+            </div>
+            <div class="buenosairesclock">
+               <div class="city buenosaires">
+                  <span class="degree" id="buenosairesdegrees">74&degF</span>
+                  <br>
+                  <div class="cityname" id="buenosairestitle"> Buenos Aires </div>
+                  <div class="clock" id="buenosaires"></div>
+               </div>
+            </div>
+            <div class="mumbaiclock">
+               <div class="city mumbai">
+                  <span class="degree" id="mumbaidegrees">74&degF</span>
+                  <br>
+                  <div class="cityname" id="mumbaititle"> Mumbai </div>
+                  <div class="clock" id="mumbai"></div>
+               </div>
+            </div>
+            <div class="istanbulclock">
+               <div class="city istanbul">
+                  <span class="degree" id="istanbuldegrees">74&degF</span>
+                  <br>
+                  <div class="cityname" id="istanbultitle"> Istanbul </div>
+                  <div class="clock" id="istanbul"></div>
+               </div>
+            </div>
+            <div class="manilaclock">
+               <div class="city manila">
+                  <span class="degree" id="maniladegrees">74&degF</span>
+                  <br>
+                  <div class="cityname" id="manilatitle"> Manila </div>
+                  <div class="clock" id="manila"></div>
+               </div>
+            </div>
+            <div class="lagosclock">
+               <div class="city lagos">
+                  <span class="degree" id="lagosdegrees">74&degF</span>
+                  <br>
+                  <div class="cityname" id="lagostitle"> Lagos </div>
+                  <div class="clock" id="lagos"></div>
+               </div>
+            </div>
+            <div class="seoulclock">
+               <div class="city seoul">
+                  <span class="degree" id="seouldegrees">74&degF</span>
+                  <br>
+                  <div class="cityname" id="seoultitle"> Seoul </div>
+                  <div class="clock" id="seoul"></div>
+               </div>
+            </div>
+            <div class="chicagoclock">
+               <div class="city chicago">
+                  <span class="degree" id="chicagodegrees">74&degF</span>
+                  <br>
+                  <div class="cityname" id="chicagotitle"> Chicago </div>
+                  <div class="clock" id="chicago"></div>
+               </div>
+            </div>
+            <div class="saopauloclock">
+               <div class="city saopaulo">
+                  <span class="degree" id="saopaulodegrees">74&degF</span>
+                  <br>
+                  <div class="cityname" id="saopaulotitle"> Sao Paulo </div>
+                  <div class="clock" id="saopaulo"></div>
+               </div>
+            </div>
+            <div class="dhakaclock">
+               <div class="city dhaka">
+                  <span class="degree" id="dhakadegrees">74&degF</span>
+                  <br>
+                  <div class="cityname" id="dhakatitle"> Dhaka </div>
+                  <div class="clock" id="dhaka"></div>
+               </div>
+            </div>
+            <div class="cairoclock">
+               <div class="city cairo">
+                  <span class="degree" id="cairodegrees">74&degF</span>
+                  <br>
+                  <div class="cityname" id="cairotitle"> Cairo </div>
+                  <div class="clock" id="cairo"></div>
+               </div>
+            </div>
+            <div class="romeclock">
+               <div class="city rome">
+                  <span class="degree" id="romedegrees">74&degF</span>
+                  <br>
+                  <div class="cityname" id="rometitle"> Rome </div>
+                  <div class="clock" id="rome"></div>
+               </div>
+            </div>
+            <div class="losangelesclock">
+               <div class="city losangeles">
+                  <span class="degree" id="losangelesdegrees">74&degF</span>
+                  <br>
+                  <div class="cityname" id="losangelestitle"> Los Angeles </div>
+                  <div class="clock" id="losangeles"></div>
+               </div>
+            </div>
+            <div class="kievclock">
+               <div class="city kiev">
+                  <span class="degree" id="kievdegrees">74&degF</span>
+                  <br>
+                  <div class="cityname" id="kievtitle"> Kiev </div>
+                  <div class="clock" id="kiev"></div>
+               </div>
+            </div>
+            <div class="albasrahclock">
+               <div class="city albasrah">
+                  <span class="degree" id="albasrahdegrees">74&degF</span>
+                  <br>
+                  <div class="cityname" id="albasrahtitle"> Al Basrah </div>
+                  <div class="clock" id="albasrah"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <footer class="footer">
+      <i class="fa fa-copyright"></i> WelcomeParac </footer>
+   <script src="script.js"></script>
+</body>
 
-			<div class="main" id="user-location">
-			</div>
-		</div>
-
-		<div class="main-container">
-			<div class="heading">
-				<h1>
-					Hey you! Do you know the time?
-				</h1>
-			</div>
-
-			<div id="major-cities-container">
-				<div class="majorCities">
-					<div class="newyorkclock">
-						<div class="city newYork">
-							<span class="degree">85&degF</span><br>
-
-							<div class="cityname" id="newyorktitle">
-								New York
-							</div>
-
-							<div class="clock" id="new-york">
-							</div>
-						</div>
-					</div>
-
-					<div class="londonclock">
-						<div class="city london">
-							<span class="degree">74&degF</span><br>
-
-							<div class="cityname" id="londontitle">
-								London
-							</div>
-
-							<div class="clock" id="london">
-							</div>
-						</div>
-					</div>
-
-					<div class="tokyoclock">
-						<div class="city tokyo">
-							<span class="degree">74&degF</span><br>
-
-							<div class="cityname" id="tokyotitle">
-								Tokyo
-							</div>
-
-							<div class="clock" id="tokyo">
-							</div>
-						</div>
-					</div>
-
-					<div class="parisclock">
-						<div class="city paris">
-							<span class="degree">74&degF</span><br>
-
-							<div class="cityname" id="paristitle">
-								Paris
-							</div>
-
-							<div class="clock" id="paris">
-							</div>
-						</div>
-					</div>
-
-					<div class="beijingclock">
-						<div class="city beijing">
-							<span class="degree">74&degF</span><br>
-
-							<div class="cityname" id="beijingtitle">
-								Beijing
-							</div>
-
-							<div class="clock" id="beijing">
-							</div>
-						</div>
-					</div>
-
-					<div class="sydneyclock">
-						<div class="city sydney">
-							<span class="degree">74&degF</span><br>
-
-							<div class="cityname" id="sydneytitle">
-								Sydney
-							</div>
-
-							<div class="clock" id="sydney">
-							</div>
-						</div>
-					</div>
-
-					<div class="mexicocityclock">
-						<div class="city mexicocity">
-							<span class="degree">74&degF</span><br>
-
-							<div class="cityname" id="mexicocitytitle">
-								Mexico City
-							</div>
-
-							<div class="clock" id="mexicocity">
-							</div>
-						</div>
-					</div>
-
-					<div class="delhiclock">
-						<div class="city delhi">
-							<span class="degree">74&degF</span><br>
-
-							<div class="cityname" id="delhititle">
-								Delhi
-							</div>
-
-							<div class="clock" id="delhi">
-							</div>
-						</div>
-					</div>
-
-					<div class="hongkongclock">
-						<div class="city hongkong">
-							<span class="degree">74&degF</span><br>
-
-							<div class="cityname" id="hongkongtitle">
-								Hong Kong
-							</div>
-
-							<div class="clock" id="hongkong">
-							</div>
-						</div>
-					</div>
-
-					<div class="moscowclock">
-						<div class="city moscow">
-							<span class="degree">74&degF</span><br>
-							<div class="titlecontainer">
-							<div class="cityname" id="moscowtitle">
-								Moscow
-							</div>
-							</div>
-							<div class="clock" id="moscow">
-				
-							</div>
-						</div>
-					</div>
-
-					<div class="shanghaiclock">
-						<div class="city shanghai">
-							<span class="degree">74&degF</span><br>
-
-							<div class="cityname"  id="shanghaititle">
-								Shanghai
-							</div>
-
-							<div class="clock" id="shanghai">
-							</div>
-						</div>
-					</div>
-
-					<div class="buenosairesclock">
-						<div class="city buenosaires">
-							<span class="degree">74&degF</span><br>
-
-							<div class="cityname" id="buenosairestitle">
-								Buenos Aires
-							</div>
-
-							<div class="clock" id="buenosaires">
-							</div>
-						</div>
-					</div>
-
-					<div class="mumbaiclock">
-						<div class="city mumbai">
-							<span class="degree">74&degF</span><br>
-
-							<div class="cityname" id="mumbaititle">
-								Mumbai
-							</div>
-
-							<div class="clock" id="mumbai">
-							</div>
-						</div>
-					</div>
-
-					<div class="istanbulclock">
-						<div class="city istanbul">
-							<span class="degree">74&degF</span><br>
-
-							<div class="cityname" id="istanbultitle">
-								Istanbul
-							</div>
-
-							<div class="clock" id="istanbul">
-							</div>
-						</div>
-					</div>
-
-					<div class="manilaclock">
-						<div class="city manila">
-							<span class="degree">74&degF</span><br>
-
-							<div class="cityname" id="manilatitle">
-								Manila
-							</div>
-
-							<div class="clock" id="manila">
-							</div>
-						</div>
-					</div>
-
-					<div class="lagosclock">
-						<div class="city lagos">
-							<span class="degree">74&degF</span><br>
-
-							<div class="cityname" id="lagostitle">
-								Lagos
-							</div>
-
-							<div class="clock" id="lagos">
-							</div>
-						</div>
-					</div>
-
-					<div class="seoulclock">
-						<div class="city seoul">
-							<span class="degree">74&degF</span><br>
-
-							<div class="cityname" id="seoultitle">
-								Seoul
-							</div>
-
-							<div class="clock" id="seoul">
-							</div>
-						</div>
-					</div>
-
-					<div class="chicagoclock">
-						<div class="city chicago">
-							<span class="degree">74&degF</span><br>
-
-							<div class="cityname" id="chicagotitle">
-								Chicago
-							</div>
-
-							<div class="clock" id="chicago">
-							</div>
-						</div>
-					</div>
-
-					<div class="saopauloclock">
-						<div class="city saopaulo">
-							<span class="degree">74&degF</span><br>
-
-							<div class="cityname" id="saopaulotitle">
-								Sao Paulo
-							</div>
-
-							<div class="clock" id="saopaulo">
-							</div>
-						</div>
-					</div>
-
-					<div class="dhakaclock">
-						<div class="city dhaka">
-							<span class="degree">74&degF</span><br>
-
-							<div class="cityname" id="dhakatitle">
-								Dhaka
-							</div>
-
-							<div class="clock" id="dhaka">
-							</div>
-						</div>
-					</div>
-
-					<div class="cairoclock">
-						<div class="city cairo">
-							<span class="degree">74&degF</span><br>
-
-							<div class="cityname" id="cairotitle">
-								Cairo
-							</div>
-
-							<div class="clock" id="cairo">
-							</div>
-						</div>
-					</div>
-
-					<div class="romeclock">
-						<div class="city rome">
-							<span class="degree">74&degF</span><br>
-
-							<div class="cityname" id="rometitle">
-								Rome
-							</div>
-
-							<div class="clock" id="rome">
-							</div>
-						</div>
-					</div>
-
-					<div class="losangelesclock">
-						<div class="city losangeles">
-							<span class="degree">74&degF</span><br>
-
-							<div class="cityname" id="losangelestitle">
-								Los Angeles
-							</div>
-
-							<div class="clock" id="losangeles">
-							</div>
-						</div>
-					</div>
-
-					<div class="kievclock">
-						<div class="city kiev">
-							<span class="degree">74&degF</span><br>
-
-							<div class="cityname" id="kievtitle">
-								Kiev
-							</div>
-
-							<div class="clock" id="kiev">
-							</div>
-						</div>
-					</div>
-
-					<div class="albasrahclock">
-						<div class="city albasrah">
-							<span class="degree">74&degF</span><br>
-
-							<div class="cityname" id="albasrahtitle">
-								Al Basrah
-							</div>
-
-							<div class="clock" id="albasrah">
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<footer class="footer">
-			<i class="fa fa-copyright"></i> WelcomeParac
-		</footer>
-		<script src="script.js">
-		</script>
-	</body>
 </html>
