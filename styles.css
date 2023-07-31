@@ -251,7 +251,7 @@ a {
 	margin-top: 2%;
 	border-radius: 25px;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 	color: rgb(7, 119, 170);
 	font-family: 'Inter', sans-serif;
