@@ -1,315 +1,327 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
 * {
-	border: red solid 0px;
+   border: red solid 0px;
 }
 
 body {
-	background-color: white;
+   background-color: white;
 }
 
 .top-content {
-	margin-left: 40px;
-	margin-top: 40px;
-	font-family: 'Inter', sans-serif;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	margin-right: 40px;
+   margin-left: 40px;
+   margin-top: 40px;
+   font-family: "Inter", sans-serif;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-right: 40px;
 }
 
 .github {
-	display: flex;
-	align-items: center;
+   display: flex;
+   align-items: center;
 }
 
 #github {
-	color: black;
-	font-size: 60px;
-	transition: color 0.5s;
-	background-position: bottom;
+   color: black;
+   font-size: 60px;
+   transition: color 0.5s;
+   background-position: bottom;
 }
 
 #github:hover {
-	color: rgb(6, 87, 124);
+   color: rgb(6, 87, 124);
 }
 
 a {
-	position: relative;
-	text-decoration: none;
+   position: relative;
+   text-decoration: none;
 }
 
 .heading {
-	font-family: 'Inter', sans-serif;
-	color: rgb(0, 0, 0);
-	display: flex;
-	justify-content: center;
-	align-items: center;
+   font-family: "Inter", sans-serif;
+   color: rgb(0, 0, 0);
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .mainClock {
-	display: none;
-	justify-content: center;
-	align-items: center;
-	height: 10vh;
-	margin: 0;
-	flex-direction: column;
-	font-family: 'Inter', sans-serif;
-	margin-bottom: 17%;
+   display: none;
+   justify-content: center;
+   align-items: center;
+   height: 10vh;
+   margin: 0;
+   flex-direction: column;
+   font-family: "Inter", sans-serif;
+   margin-bottom: 17%;
 }
 
 .cityname {
-	opacity: 1;
-	display: flex;
-	justify-content: center;
-	align-items: center
+   opacity: 1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
-#newyorktitle{
-	font-size: 1.1rem;	 
-
+#newyorktitle {
+   font-size: 1.1rem;
 }
 
-#londontitle{
-	font-size: 1.85rem;	 
-
+#londontitle {
+   font-size: 1.85rem;
 }
 
-#tokyotitle{
-	font-size: 1.75rem;	 
-
+#tokyotitle {
+   font-size: 1.75rem;
 }
 
-#delhititle{
-	font-size: 1.5rem;	 
-
+#delhititle {
+   font-size: 1.5rem;
 }
 
-#mexicocitytitle{
-	font-size: .7rem;	 
-
+#mexicocitytitle {
+   font-size: 0.7rem;
 }
 
-#hongkongtitle{
-	font-size: 1.5rem;	 
-
+#hongkongtitle {
+   font-size: 1.5rem;
 }
 
-#moscowtitle{
-	font-size: .8rem;	
-
+#moscowtitle {
+   font-size: 0.8rem;
 }
 
-#paristitle{
-	font-size: 1.25rem;	 
-
+#paristitle {
+   font-size: 1.25rem;
 }
 
-#beijingtitle{
-	font-size: 3rem;	 
-
+#beijingtitle {
+   font-size: 3rem;
 }
 
-#seoultitle{
-	font-size: 3rem;	 
-
+#seoultitle {
+   font-size: 3rem;
 }
 
-#buenosairestitle{
-	font-size: 1.2rem;	 
-
+#buenosairestitle {
+   font-size: 1.2rem;
 }
 
-#mumbaititle{
-	font-size: 1.75rem;	 
-
+#mumbaititle {
+   font-size: 1.75rem;
 }
 
-#sydneytitle{
-	font-size: 0.6rem;	 
-
+#sydneytitle {
+   font-size: 0.6rem;
 }
 
-#shanghaititle{
-	font-size: 1.1rem;	 
-
+#shanghaititle {
+   font-size: 1.1rem;
 }
 
-#manilatitle{
-	font-size: 1rem;	 
-
+#manilatitle {
+   font-size: 1rem;
 }
 
-#lagostitle{
-	font-size: 1.5rem;	 
-
+#lagostitle {
+   font-size: 1.5rem;
 }
 
-#istanbultitle{
-	font-size: 1.5rem;	 
-
+#istanbultitle {
+   font-size: 1.5rem;
 }
 
-#rometitle{
-	font-size: 3rem;	 
-
+#rometitle {
+   font-size: 3rem;
 }
 
-#cairotitle{
-	font-size: 2rem;	 
-
+#cairotitle {
+   font-size: 2rem;
 }
 
-#dhakatitle{
-	font-size: 1rem;	 
-
+#dhakatitle {
+   font-size: 1rem;
 }
 
-#chicagotitle{
-	font-size: 1.1rem;	 
-
+#chicagotitle {
+   font-size: 1.1rem;
 }
 
-#losangelestitle{
-	font-size: 1.7rem;	 
-
+#losangelestitle {
+   font-size: 1.7rem;
 }
 
-#albasrahtitle{
-	font-size: 0.5rem;	 
-
+#albasrahtitle {
+   font-size: 0.5rem;
 }
 
-#saopaulotitle{
-	font-size: 1.1rem;	 
-
+#saopaulotitle {
+   font-size: 1.1rem;
 }
 
-#kievtitle{
-	font-size: 1.35rem;	 
-
+#kievtitle {
+   font-size: 1.35rem;
 }
 
-.titlecontainer{
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.titlecontainer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
-.clock, .degree {
-	opacity: 0;
-	transition: opacity 0.5s ease;
-	
+#newyorkdegrees,
+#new-york,
+#londondegrees,
+#london,
+#tokyodegrees,
+#tokyo,
+#delhidegrees,
+#delhi,
+#hongkongdegrees,
+#hongkong,
+#mexicocitydegrees,
+#mexicocity,
+#parisdegrees,
+#paris,
+#sydneydegrees,
+#sydney,
+#beijingdegrees,
+#beijing,
+#moscowdegrees,
+#moscow,
+#shanghaidegrees,
+#shanghai,
+#buenosairesdegrees,
+#buenosaires,
+#seouldegrees,
+#seoul,
+#mumbaidegrees,
+#mumbai,
+#maniladegrees,
+#manila,
+#lagosdegrees,
+#lagos,
+#albasrahdegrees,
+#albasrah,
+#saopaulodegrees,
+#saopaulo,
+#losangelesdegrees,
+#losangeles,
+#istanbuldegrees,
+#istanbul,
+#chicagodegrees,
+#chicago,
+#kievdegrees,
+#kiev,
+#romedegrees,
+#rome,
+#cairodegrees,
+#cairo,
+#dhakadegrees,
+#dhaka {
+   position: absolute;
 }
 
-
-  
-
-
-
-
-
-
-
+.clock,
+.degree {
+   opacity: 0;
+   transition: opacity 0.5s ease;
+}
 
 .city:hover .clock {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	opacity: 1;
-	margin-top: -20%;
-	
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   opacity: 1;
+   margin-top: -20%;
 }
 
 .city:hover .degree {
-	opacity: 1;
+   opacity: 1;
 }
 
 .city:hover .cityname {
-	opacity: 0;
+   opacity: 0;
 }
 
-
-
 .websitename {
-	animation: slideInFromLeft 1s ease-in-out;
+   animation: slideInFromLeft 1s ease-in-out;
 }
 
 @keyframes slideInFromLeft {
-	from {
-		transform: translateX(-100%);
-	}
-	to {
-		transform: translateX(0);
-	}
+   from {
+      transform: translateX(-100%);
+   }
+   to {
+      transform: translateX(0);
+   }
 }
 
 #user-location {
-	font-size: 20px;
-	height: 20px;
-	width: 100%;
-	margin-top: 2%;
-	border-radius: 25px;
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-	color: rgb(7, 119, 170);
-	font-family: 'Inter', sans-serif;
+   font-size: 20px;
+   height: 20px;
+   width: 100%;
+   margin-top: 2%;
+   border-radius: 25px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   color: rgb(7, 119, 170);
+   font-family: "Inter", sans-serif;
 }
 
 .majorCities {
-	display: flex;
-	flex-wrap: wrap;
-	margin-top: 3%;
-	text-align: center;
-	font-family: 'Inter', sans-serif;
-	transition: all 0.5s ease;
-	margin-left: 100px;
-	margin-right: 100px;
-	border: solid red 0px;
-	height: 50vh;
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 3%;
+   text-align: center;
+   font-family: "Inter", sans-serif;
+   transition: all 0.5s ease;
+   margin-left: 100px;
+   margin-right: 100px;
+   border: solid red 0px;
+   height: 50vh;
 }
 
 .city {
-	background-color: rgb(6, 87, 124);
-	border-radius: 50%;
-	position: absolute;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	color: white;
-	overflow: hidden;
-	cursor: pointer;
-	
+   background-color: rgb(6, 87, 124);
+   border-radius: 50%;
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   overflow: hidden;
+   cursor: pointer;
 }
 
 .city:hover {
-	background-color: rgb(7, 119, 170);
-	border-radius: 50%;
-	position: absolute;
-	transform: scale(2);
-	z-index: 1;
-	transition: all 1s;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	color: white;
-	overflow: hidden;
-	cursor: pointer;
-	
-	box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+   background-color: rgb(7, 119, 170);
+   border-radius: 50%;
+   position: absolute;
+   transform: scale(2);
+   z-index: 1;
+   transition: all 1s;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   overflow: hidden;
+   cursor: pointer;
+
+   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+      rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+      rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
-
-
-
 .newYork {
-	width: 100px;
-	height: 100px;
-	font-size: 0.6rem;
-
+   width: 100px;
+   height: 100px;
+   font-size: 0.6rem;
 }
 
 .newYork:hover,
@@ -317,24 +329,21 @@ a {
 .shanghai:hover,
 .buenosaires:hover,
 .lagos:hover,
-.chicago:hover{
-	transform: scale(2.5);
-
+.chicago:hover {
+   transform: scale(2.5);
 }
 
 .london:hover,
 .hongkong:hover,
 .mumbai:hover,
-.losangeles:hover{
-	transform: scale(1.75);
-
+.losangeles:hover {
+   transform: scale(1.75);
 }
 
 .tokyo:hover,
 .istanbul:hover,
-.cairo:hover{
-	transform: scale(2);
-
+.cairo:hover {
+   transform: scale(2);
 }
 
 .paris:hover,
@@ -343,334 +352,330 @@ a {
 .manila:hover,
 .saopaulo:hover,
 .kiev:hover,
-.dhaka:hover{
-	transform: scale(3.5);
-
+.dhaka:hover {
+   transform: scale(3.5);
 }
 
 .seoul:hover,
-.rome:hover{
-	transform: scale(1.25);
-
+.rome:hover {
+   transform: scale(1.25);
 }
 
-.beijing:hover{
-	transform: scale(1.1);
+.beijing:hover {
+   transform: scale(1.1);
 }
 
 .sydney:hover,
-.albasrah:hover{
-	transform: scale(5);
-
+.albasrah:hover {
+   transform: scale(5);
 }
 
 .london {
-	width: 150px;
-	height: 150px;
-	margin-left: 5.5%;
-	font-size: 1em;
+   width: 150px;
+   height: 150px;
+   margin-left: 5.5%;
+   font-size: 1em;
 }
 
 .tokyo {
-	width: 125px;
-	height: 125px;
-	margin-top: 5.5%;
-	font-size: 0.8rem;
+   width: 125px;
+   height: 125px;
+   margin-top: 5.5%;
+   font-size: 0.8rem;
 }
 
 .paris {
-	width: 75px;
-	height: 75px;
-	margin-left: 6.75%;
-	margin-top: 8.5%;
-	font-size: 0.5rem;
+   width: 75px;
+   height: 75px;
+   margin-left: 6.75%;
+   margin-top: 8.5%;
+   font-size: 0.5rem;
 }
 
 .beijing {
-	width: 225px;
-	height: 225px;
-	margin-left: 11.25%;
-	margin-top: 5%;
-	font-size: 1.6rem
+   width: 225px;
+   height: 225px;
+   margin-left: 11.25%;
+   margin-top: 5%;
+   font-size: 1.6rem;
 }
 
 .sydney {
-	width: 50px;
-	height: 50px;
-	margin-left: 14%;
-	margin-top: 2.25%;
-	font-size: 0.3rem
+   width: 50px;
+   height: 50px;
+   margin-left: 14%;
+   margin-top: 2.25%;
+   font-size: 0.3rem;
 }
 
 .mexicocity {
-	width: 75px;
-	height: 75px;
-	margin-top: 18%;
-	font-size: 0.6rem;
+   width: 75px;
+   height: 75px;
+   margin-top: 18%;
+   font-size: 0.6rem;
 }
 
 .delhi {
-	width: 100px;
-	height: 100px;
-	margin-top: 12.25%;
-	font-size: 0.8rem
+   width: 100px;
+   height: 100px;
+   margin-top: 12.25%;
+   font-size: 0.8rem;
 }
 
 .hongkong {
-	width: 150px;
-	height: 150px;
-	margin-top: 13%;
-	margin-left: 5.1%;
-	font-size: 1.1rem
+   width: 150px;
+   height: 150px;
+   margin-top: 13%;
+   margin-left: 5.1%;
+   font-size: 1.1rem;
 }
 
 .moscow {
-	width: 75px;
-	height: 75px;
-	margin-left: 13%;
-	margin-top: 17%;
-	font-size: 0.6rem;
+   width: 75px;
+   height: 75px;
+   margin-left: 13%;
+   margin-top: 17%;
+   font-size: 0.6rem;
 }
 
-
-
 .shanghai {
-	width: 100px;
-	height: 100px;
-	font-size: 0.8rem;
-	margin-left: 17%;
+   width: 100px;
+   height: 100px;
+   font-size: 0.8rem;
+   margin-left: 17%;
 }
 
 .buenosaires {
-	width: 100px;
-	height: 100px;
-	font-size: 0.8rem;
-	margin-left: 17.5%;
-	margin-top: 16.5%;
+   width: 100px;
+   height: 100px;
+   font-size: 0.8rem;
+   margin-left: 17.5%;
+   margin-top: 16.5%;
 }
 
 .mumbai {
-	width: 150px;
-	height: 150px;
-	font-size: 0.9rem;
-	margin-left: 22.25%;
-	margin-top: 11.75%;
+   width: 150px;
+   height: 150px;
+   font-size: 0.9rem;
+   margin-left: 22.25%;
+   margin-top: 11.75%;
 }
 
 .seoul {
-	width: 200px;
-	height: 200px;
-	font-size: 1rem;
-	margin-left: 22.75%;
-	margin-top: 1%;
+   width: 200px;
+   height: 200px;
+   font-size: 1rem;
+   margin-left: 22.75%;
+   margin-top: 1%;
 }
 
 .manila {
-	width: 75px;
-	height: 75px;
-	font-size: 0.6rem;
-	margin-left: 29.75%;
-	margin-top: 10.75%;
+   width: 75px;
+   height: 75px;
+   font-size: 0.6rem;
+   margin-left: 29.75%;
+   margin-top: 10.75%;
 }
 
 .lagos {
-	width: 100px;
-	height: 100px;
-	font-size: 0.8rem;
-	margin-left: 30.5%;
-	margin-top: 15%;
+   width: 100px;
+   height: 100px;
+   font-size: 0.8rem;
+   margin-left: 30.5%;
+   margin-top: 15%;
 }
 
 .istanbul {
-	width: 125px;
-	height: 125px;
-	font-size: 0.9rem;
-	margin-left: 36.25%;
-	margin-top: 15.25%;
+   width: 125px;
+   height: 125px;
+   font-size: 0.9rem;
+   margin-left: 36.25%;
+   margin-top: 15.25%;
 }
 
 .losangeles {
-	width: 150px;
-	height: 150px;
-	font-size: 1rem;
-	margin-left: 34%;
-	margin-top: 7%;
+   width: 150px;
+   height: 150px;
+   font-size: 1rem;
+   margin-left: 34%;
+   margin-top: 7%;
 }
 
 .saopaulo {
-	width: 75px;
-	height: 75px;
-	font-size: 0.6rem;
-	margin-left: 33.5%;
-	margin-top: 3.25%;
+   width: 75px;
+   height: 75px;
+   font-size: 0.6rem;
+   margin-left: 33.5%;
+   margin-top: 3.25%;
 }
 
 .albasrah {
-	width: 50px;
-	height: 50px;
-	font-size: 0.4rem;
-	margin-left: 32.25%;
-	margin-top: 1%;
+   width: 50px;
+   height: 50px;
+   font-size: 0.4rem;
+   margin-left: 32.25%;
+   margin-top: 1%;
 }
 
 .chicago {
-	width: 100px;
-	height: 100px;
-	font-size: 0.8rem;
-	margin-left: 41.5%;
-	margin-top: 11.5%;
+   width: 100px;
+   height: 100px;
+   font-size: 0.8rem;
+   margin-left: 41.5%;
+   margin-top: 11.5%;
 }
 
 .kiev {
-	width: 75px;
-	height: 75px;
-	font-size: 0.6rem;
-	margin-left: 42%;
-	margin-top: 7.25%;
+   width: 75px;
+   height: 75px;
+   font-size: 0.6rem;
+   margin-left: 42%;
+   margin-top: 7.25%;
 }
 
 .rome {
-	width: 200px;
-	height: 200px;
-	font-size: 1.1rem;
-	margin-left: 46.5%;
-	margin-top: 5.5%;
+   width: 200px;
+   height: 200px;
+   font-size: 1.1rem;
+   margin-left: 46.5%;
+   margin-top: 5.5%;
 }
 
 .cairo {
-	width: 125px;
-	height: 125px;
-	font-size: 0.9rem;
-	margin-left: 38%;
-	margin-top: 0.75%;
+   width: 125px;
+   height: 125px;
+   font-size: 0.9rem;
+   margin-left: 38%;
+   margin-top: 0.75%;
 }
 
 .dhaka {
-	width: 75px;
-	height: 75px;
-	font-size: 0.5rem;
-	margin-left: 44.5%;
-	margin-top: 3.5%;
+   width: 75px;
+   height: 75px;
+   font-size: 0.5rem;
+   margin-left: 44.5%;
+   margin-top: 3.5%;
 }
 
 .expanded {
-	height: 300px;
-	font-size: 40px;
-	box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-	transition: box-shadow 0.3s ease;
+   height: 300px;
+   font-size: 40px;
+   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+      rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+      rgba(0, 0, 0, 0.09) 0px 32px 16px;
+   transition: box-shadow 0.3s ease;
 }
 
 .search {
-	width: 100%;
-	display: flex;
-	margin-top: -15px;
+   width: 100%;
+   display: flex;
+   margin-top: -15px;
 }
 
 .searchTerm {
-	width: 100%;
-	border: 3px solid rgb(6, 87, 124);
-	border-right: none;
-	padding: 5px;
-	height: 20px;
-	border-radius: 5px 0 0 5px;
-	outline: none;
-	color: #000000;
+   width: 100%;
+   border: 3px solid rgb(6, 87, 124);
+   border-right: none;
+   padding: 5px;
+   height: 20px;
+   border-radius: 5px 0 0 5px;
+   outline: none;
+   color: #000000;
 }
 
 .searchTerm:focus {
-	color: #000000;
+   color: #000000;
 }
 
 .searchButton {
-	width: 40px;
-	height: 36px;
-	border: 1px solid rgb(6, 87, 124);
-	background: rgb(6, 87, 124);
-	text-align: center;
-	color: #fff;
-	border-radius: 0 5px 5px 0;
-	cursor: pointer;
-	font-size: 20px;
+   width: 40px;
+   height: 36px;
+   border: 1px solid rgb(6, 87, 124);
+   background: rgb(6, 87, 124);
+   text-align: center;
+   color: #fff;
+   border-radius: 0 5px 5px 0;
+   cursor: pointer;
+   font-size: 20px;
 }
 
 .wrap {
-	width: 325px;
-	margin-left: 40px;
+   width: 325px;
+   margin-left: 40px;
 }
 
 .highlighted {
-	background-color: rgb(7, 119, 170);
-	transform: scale(2);
-	transition: transform 0.3s ease;
-	/* Add a smooth transition effect */
-	z-index: 1;
+   background-color: rgb(7, 119, 170);
+   transform: scale(2);
+   transition: transform 0.3s ease;
+   /* Add a smooth transition effect */
+   z-index: 1;
 }
 
-.highlighted .degree, .highlighted .clock {
-	opacity: 1;
+.highlighted .degree,
+.highlighted .clock {
+   opacity: 1;
 }
 
 .highlighted .clock {
-	margin-top: -10%;
+   margin-top: -10%;
 }
 
 .highlighted .cityname {
-	opacity: 0;
+   opacity: 0;
 }
 
 .error-message {
-  position: absolute;
-  margin-top: 3.5%; /* Adjust the vertical distance from the user location date */
-  padding: 8px 12px;
-  background-color: #f44336;
-  color: #fff;
-  border-radius: 4px;
-  font-size: 14px;
-  display: none;
-  font-family: 'Inter', sans-serif;
+   position: absolute;
+   margin-top: 3.5%; /* Adjust the vertical distance from the user location date */
+   padding: 8px 12px;
+   background-color: #f44336;
+   color: #fff;
+   border-radius: 4px;
+   font-size: 14px;
+   display: none;
+   font-family: "Inter", sans-serif;
 }
 
-
 .footer {
-	margin-top: 75px;
-	text-align: center;
-	font-family: 'Inter', sans-serif;
+   margin-top: 75px;
+   text-align: center;
+   font-family: "Inter", sans-serif;
 }
 
 @media (min-width: 299px) and (max-width: 500px) {
-	.city {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-  .websitename{
-    font-size: 25px;
-  }
-	.top-content {
-		font-family: 'Inter', sans-serif;
-		justify-content: center;
-		align-items: center;
-		margin-bottom: -20px;
-	}
-	.heading {
-		text-align: center;
-		font-size: 10px;
-	}
-	.search {
-		margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-	}
-	#github {
-		font-size: 30px;
-		position: absolute;
-		margin-left: -10px;
-		margin-top: -90px;
-	}
-	#user-location {
-    	font-size: 15px;
-		
-	}
+   .city {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .websitename {
+      font-size: 25px;
+   }
+   .top-content {
+      font-family: "Inter", sans-serif;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: -20px;
+   }
+   .heading {
+      text-align: center;
+      font-size: 10px;
+   }
+   .search {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 200px;
+   }
+   #github {
+      font-size: 30px;
+      position: absolute;
+      margin-left: -10px;
+      margin-top: -90px;
+   }
+   #user-location {
+      font-size: 15px;
+   }
 }
