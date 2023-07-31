@@ -251,7 +251,7 @@ a {
 	margin-top: 2%;
 	border-radius: 25px;
 	display: flex;
-	justify-content: flex-start;
+	justify-content: center;
 	align-items: center;
 	color: rgb(7, 119, 170);
 	font-family: 'Inter', sans-serif;
@@ -670,7 +670,7 @@ a {
 		margin-top: -90px;
 	}
 	#user-location {
-		text-align: center;
-    font-size: 15px;
+    	font-size: 15px;
+		
 	}
 }
