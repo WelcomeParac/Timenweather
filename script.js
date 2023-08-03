@@ -51,7 +51,7 @@ function updateClock(cityId, offset) {
   const searchButton = document.querySelector('.searchButton');
   const searchInput = document.querySelector('.searchTerm');
   const errorMessage = document.createElement('div');
-  errorMessage.textContent = 'Please enter a city name!';
+  errorMessage.textContent = 'Invalid! Maybe check spelling...you did something wrong...';
   errorMessage.classList.add('error-message');
   errorMessage.style.display = 'none';
   searchButton.parentNode.appendChild(errorMessage);
