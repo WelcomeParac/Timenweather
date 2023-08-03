@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
+
+body{
+    
+}
+.MainCityContainer{
+    border: solid red 0px;
+    height: 40vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+.Nav a{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: rgb(6, 87, 124);
+    font-family: "Inter", sans-serif;
+    font-size: 50px;
+}
+.Nav a:hover{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: rgb(7, 119, 170);
+    font-family: "Inter", sans-serif;
+    font-size: 50px;
+}
+.MainCityInfo{
+    background-color: rgb(6, 87, 124);
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+    width: 1200px;
+    border-radius: 100px;
+    
+}
+
+.LeftContent{
+    font-family: "Inter", sans-serif;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+   
+}
+
+.CityName{
+    font-size: 3rem;
+    margin-left: 100px;
+    margin-bottom: -50px;
+}
+
+.CurrentWeather{
+    font-size: 10rem;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.WeatherCondition{
+    font-size: 3rem;
+    margin-left: 100px;
+    margin-bottom: -80px;
+
+}
+
+.CurrentTimeTitle{
+    font-size: 2rem;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.CurrentCityTimeandDate{
+    font-size: 5rem;
+    margin-left: 100px;
+}
+
+.RightContent{
+    font-family: "Inter", sans-serif;
+    color: white;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    
+   
+    
+}
+
+.HourlyForecastTitle{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.HourlyForecastContainer{
+    width: 500px;
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.DailyForecastContainer{
+    width: 500px;
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.WindSpeedandHumidityContainer{
+    width: 500px;
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.DailyForecastTitle{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+
+.WindSpeedandHumidityTitle{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+
+.HourlyForecastOne,
+.HourlyForecastTwo,
+.HourlyForecastThree,
+.HourlyForecastFour,
+.HourlyForecastFive,
+.HourlyForecastSix,
+.HourlyForecastSeven{
+    width: 60px;
+    height: 100px;
+    background-color: rgb(6, 87, 124);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.DailyForecastOne,
+.DailyForecastTwo,
+.DailyForecastThree,
+.DailyForecastFour,
+.DailyForecastFive,
+.DailyForecastSix,
+.DailyForecastSeven{
+    width: 60px;
+    height: 100px;
+    background-color: rgb(6, 87, 124);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.WindSpeed{
+    height: 100px;
+    width: 225px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(6, 87, 124);
+}
+
+#WindSpeed{
+    font-size: 50px;
+    margin-right: -20px;
+}
+#WindSpeed #MPH{
+    font-size: 30px;
+}
+#WindDirection{
+    font-size: 50px;
+}
+.Humidity{
+    height: 100px;
+    width: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 87, 124);
+}
+#WindSpeedTitle{
+position: absolute;
+margin-right: 230px;
+margin-bottom: 130px;
+font-size: 1.5rem;
+}
+
+#Humidity{
+    font-size: 50px;
+}
+
+#HumidityTitle{
+    position: absolute;
+    margin-left: 230px;
+    margin-bottom: 130px;
+    font-size: 1.5rem;
+    }
+
+#fouram,
+#sevenam,
+#tenam,
+#onepm,
+#fourpm
+#sevenpm,
+#tenpm,
+
+#Monday,
+#Tuesday,
+#Wednesday,
+#Thursday,
+#Friday,
+#Saturday,
+#Sunday{
+    margin-bottom: 3px;
+    font-size: 15px;
+}
+#WeatherForecast,
+#WeatherForecastTwo,
+#WeatherForecastThree,
+#WeatherForecastFour,
+#WeatherForecastFive,
+#WeatherForecastSix,
+#WeatherForecastSeven{
+    font-size: 10px;
+    margin-top: 3px;
+    text-align: center;
+}
+
+#DailyWeatherForecast,
+#DailyWeatherForecastTwo,
+#DailyWeatherForecastThree,
+#DailyWeatherForecastFour,
+#DailyWeatherForecastFive,
+#DailyWeatherForecastSix,
+#DailyWeatherForecastSeven{
+    font-size: 10px;
+    margin-top: 3px;
+    text-align: center;
+}
+
+#HourlyWeather,
+#HourlyWeatherTwo,
+#HourlyWeatherThree,
+#HourlyWeatherFour,
+#HourlyWeatherFive,
+#HourlyWeatherSix,
+#HourlyWeatherSeven{
+    font-size: 20px;
+}
+
+#DailyWeather,
+#DailyWeatherTwo,
+#DailyWeatherThree,
+#DailyWeatherFour,
+#DailyWeatherFive,
+#DailyWeatherSix,
+#DailyWeatherSeven{
+    font-size: 20px;
+}
