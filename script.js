@@ -6,9 +6,10 @@ function updateClock(cityId, offset) {
 	const minutes = String(cityTime.getUTCMinutes()).padStart(2, '0');
 	const amPm = cityTime.getUTCHours() >= 12 ? 'PM' : 'AM';
 	const day = cityTime.getUTCDate();
-	const month = cityTime.getUTCMonth() + 1;
+	const month = cityTime.getUTCMonth();
+	const year = now.getFullYear() % 100;
 	const clockDiv = document.getElementById(cityId);
-	clockDiv.textContent = `${hours}:${minutes} ${amPm} / ${month}-${day}`;
+	clockDiv.innerHTML = `${hours}:${minutes} ${amPm} <br> ${monthsArray[month]} ${day} - ${year}`;
   }
   
   function updateUserLocationClock() {
@@ -19,11 +20,11 @@ function updateClock(cityId, offset) {
 	const day = now.getDate();
 	const month = now.getMonth();
 	const year = now.getFullYear();
-	const monthsArray = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 	const clockDiv = document.getElementById('user-location');
-	clockDiv.textContent = `${hours}:${minutes} ${amPm} - ${monthsArray[month]} ${day}, ${year}`;
+	clockDiv.innerHTML = `${hours}:${minutes} ${amPm} - ${monthsArray[month]} ${day}, ${year}`;
   }
-  
+  	const monthsArray = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+
   function highlightCity(city) {
 	let isCityHighlighted = false;
 	const cityElements = document.querySelectorAll('.cityname');
@@ -79,7 +80,7 @@ function updateClock(cityId, offset) {
 		showError();
 		return;
 	  }
-  
+	
 	  highlightCity(searchTerm);
 	  hideError();
 	}
@@ -87,7 +88,13 @@ function updateClock(cityId, offset) {
   
   function showError() {
 	errorMessage.style.display = 'block';
-  }
+
+	setTimeout(() => {
+		hideError(); },
+		5000);
+
+	}
+  
   
   function hideError() {
 	errorMessage.style.display = 'none';
