@@ -1,124 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Digital Clock</title>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link rel="stylesheet" href="./styles.css">
-   </head>
-   <body>
-      <div class="top-content">
-         <h1 id="websiteName">Time'n'weather.com</h1>
-         <a class="github" href="https://github.com/WelcomeParac/DigitalClock">
-            <i class="fa fa-github" id="github"></i>
-         </a>
-      </div>
-      <div class="wrap">
-         <div class="search">
-            <input type="text" class="searchTerm" placeholder="Searching for a city?">
-            <button type="submit" class="searchButton">
-               <i class="fa fa-search"></i>
-            </button>
-         </div>
-      </div>
-      <div class="main-container">
-         <div class="mainClock"> <div class="heading"> <h1>Hey you! Do you know the time?</h1> </div> <div id="user-location" class="main"></div> </div>
-         <div id="major-cities-container">
-            <div class="majorCities">
-               <div class="newyorkclock">
-                  <div class="newYork" onclick="">
-                     <div class="newyorkweather">
-                        <span class="degree">85&degF</span><br> New York
-                     </div>
-                     <div id="new-york" class="clock"></div>
-                  </div>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>New York</title>
+   <link href="/Citypages.css" rel="stylesheet">
+</head>
+<body>
+   <div class="Nav"><a href="/index.html">←</a></div>
+   <div class="MainCityContainer">
+         <div class="MainCityInfo">
+            <div class="LeftContent">
+               <div class="CityName">
+                  New York
                </div>
-               <div class="londonclock">
-                  <div class="london">
-                     <div class="londonweather">
-                        <span class="degree">74&degF</span><br> London
-                     </div>
-                     <div id="london" class="clock"></div>
-                  </div>
-                  
+               <div class="CurrentWeather">
+               76&degF
                </div>
-               <div class="tokyoclock">
-                  <div class="tokyo">
-                     <div class="tokyoweather">
-                        <span class="degree">74&degF </span><br>Tokyo
-                     </div>
-                     <div id="tokyo" class="clock"></div>
-                  </div>
-                  
+               <div class="WeatherCondition">
+                  Partly Cloudy
                </div>
-               <div class="parisclock">
-                  <div class="paris">
-                     <div class="parisweather">
-                        <span class="degree">74&degF </span><br> Paris
-                     </div>
-                     <div id="paris" class="clock"></div>
-                  </div>
+               <div class="CurrentTimeTitle">
+                  Current Time 
                </div>
-               <div class="beijingclock">
-                  <div class="beijing">
-                     <div class="beijingweather">
-                        <span class="degree">74&degF </span><br> Beijing
-                     </div>
-                     <div id="beijing" class="clock"></div>
-                  </div>
-                  
-               </div>
-               <div class="sydneyclock">
-                  <div class="sydney">
-                     <div class="sydneyweather">
-                        <span class="degree">74&degF </span><br>Sydney
-                     </div>
-                     <div id="sydney" class="clock"></div>
-                  </div>
-                  
-               </div>
-               <div class="mexicocityclock">
-                  <div class="mexicocity">
-                     <div class="mexicocityweather">
-                        <span class="degree">74&degF </span><br> Mexico City
-                     </div>
-                     <div id="mexicocity" class="clock"></div>
-                  </div>
-                  
-               </div>
-               <div class="delhiclock">
-                  <div class="delhi">
-                     <div class="delhiweather">
-                        <span class="degree">74&degF </span><br> Delhi
-                     </div>
-                     <div id="delhi" class="clock"></div>
-                  </div>
-                  
-               </div>
-               <div class="hongkongclock">
-                  <div class="hongkong">
-                     <div class="hongkongweather">
-                        <span class="degree">74&degF </span><br> Hong Kong
-                     </div>
-                     <div id="hongkong" class="clock"></div>
-                  </div>
-                  
-               </div>
-               <div class="moscowclock">
-                  <div class="moscow">
-                     <div class="moscowweather">
-                        <span class="degree">74&degF </span><br> Moscow
-                     </div>
-                     <div id="moscow" class="clock"></div>
-                  </div>
-      
+               <div class="CurrentCityTimeandDate">
+                  5:10:00 PM
                </div>
             </div>
+            
+            <div class="RightContent">
+               <div class="HourlyForecast">
+                  <div class="HourlyForecastTitle">
+                     Hourly Forecast
+                  </div>
+                  <div class="HourlyForecastContainer">
+                  <div class="HourlyForecastOne">
+                     <div id="fouram">4 AM</div>
+                     <div id="HourlyWeather">76&degF</div>
+                     <div id="WeatherForecast">Partly Cloudy</div>
+                  </div>
+                  <div class="HourlyForecastTwo">
+                     <div id="sevenam">7 AM</div>
+                     <div id="HourlyWeatherTwo">76&degF</div>
+                     <div id="WeatherForecastTwo">Partly Cloudy</div>
+                  </div>
+                  <div class="HourlyForecastThree">
+                     <div id="tenam">10 AM</div>
+                     <div id="HourlyWeatherThree">76&degF</div>
+                     <div id="WeatherForecastThree">Partly Cloudy</div>
+                  </div>
+                  <div class="HourlyForecastFour">
+                     <div id="onepm">1 PM</div>
+                     <div id="HourlyWeatherFour">76&degF</div>
+                     <div id="WeatherForecastFour">Partly Cloudy</div>
+                  </div>
+                  <div class="HourlyForecastFive">
+                     <div id="fourpm">4 PM</div>
+                     <div id="HourlyWeatherFive">76&degF</div>
+                     <div id="WeatherForecastFive">Partly Cloudy</div>
+                  </div>
+                  <div class="HourlyForecastSix">
+                     <div id="sevenpm">7 PM</div>
+                     <div id="HourlyWeatherSix">76&degF</div>
+                     <div id="WeatherForecastSix">Partly Cloudy</div>
+                  </div>
+                  <div class="HourlyForecastSeven">
+                     <div id="10pm">10 PM</div>
+                     <div id="HourlyWeatherSeven">76&degF</div>
+                     <div id="WeatherForecastSeven">Partly Cloudy</div>
+                  </div>
+               </div>
+               </div>
+               <div class="DailyForecast">
+                  <div class="DailyForecastTitle">
+                     Daily Forecast
+                  </div>
+
+                  <div class="DailyForecastContainer">
+                  <div class="DailyForecastOne">
+                     <div id="Monday">Mon</div>
+                     <div id="DailyWeather">87&degF</div>
+                     <div id="DailyWeatherForecast">Partly Cloudy</div>
+                  </div>
+                  <div class="DailyForecastTwo">
+                     <div id="Tuesday">Tues</div>
+                     <div id="DailyWeatherTwo">87&degF</div>
+                     <div id="DailyWeatherForecastTwo">Partly Cloudy</div>
+                  </div>
+                  <div class="DailyForecastThree">
+                     <div id="Wednesday">Wed</div>
+                     <div id="DailyWeatherThree">87&degF</div>
+                     <div id="DailyWeatherForecastThree">Partly Cloudy</div>
+                  </div>
+                  <div class="DailyForecastFour">
+                     <div id="Thursday">Thurs</div>
+                     <div id="DailyWeatherFour">87&degF</div>
+                     <div id="DailyWeatherForecastFour">Partly Cloudy</div>
+                  </div>
+                  <div class="DailyForecastFive">
+                     <div id="Friday">Fri</div>
+                     <div id="DailyWeatherFive">87&degF</div>
+                     <div id="DailyWeatherForecastFive">Partly Cloudy</div>
+                  </div>
+                  <div class="DailyForecastSix">
+                     <div id="Saturday">Sat</div>
+                     <div id="DailyWeatherSix">87&degF</div>
+                     <div id="DailyWeatherForecastSix">Partly Cloudy</div>
+                  </div>
+                  <div class="DailyForecastSeven">
+                     <div id="Sunday">Sun</div>
+                     <div id="DailyWeatherSeven">87&degF</div>
+                     <div id="DailyWeatherForecastSeven">Partly Cloudy</div>
+                  </div>
+               </div>
+               </div>
+               <div class="WindSpeedandHumidity">
+                  <div class="WindSpeedandHumidityContainer">
+                     <div id="WindSpeedTitle">Wind Speed</div>
+                     <div id="HumidityTitle">Humidity</div>
+                     <div class="WindSpeed">
+                        <div id="WindSpeed">15 <span id="MPH">mph</span></div>
+                        <div id="WindDirection">↘</div>
+                     </div>
+                     <div class="Humidity">
+                        <div  id="Humidity">35%</div>
+
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+
+
+
          </div>
-      </div>
-      <footer class="footer"><i class="fa fa-copyright"></i> WelcomeParac</footer>
-      <script src="script.js"></script>
-   </body>
+
+
+
+
+
+
+
+
+
+
+
+   </div>
+</body>
 </html>
