@@ -224,6 +224,53 @@ a {
    position: absolute;
 }
 
+#new-york,
+#delhi,
+#shanghai,
+#buenosaires,
+#lagos{
+   margin-top: 15px;
+   font-size: .6rem;
+}
+#newyorkdegrees,
+#delhidegrees,
+#shanghaidegrees,
+#buenosairesdegrees,
+#lagosdegrees{
+   margin-bottom: 25px;
+   font-size: .8rem;
+}
+
+#tokyo,
+#istanbul,
+#cairo{
+   margin-top: 15px;
+   font-size: .75rem;
+}
+#tokyodegrees,
+#istanbuldegrees,
+#cairodegrees{
+   margin-bottom: 35px;
+   font-size: 1rem;
+}
+
+#london,
+#losangeles,
+#hongkong,
+#mumbai{
+   margin-top: 15px;
+   font-size: .9rem;
+}
+
+#londondegrees,
+#losangelesdegrees,
+#hongkongdegrees,
+#mumbaidegrees{
+   margin-bottom: 40px;
+   font-size: 1.2rem;
+}
+
+
 .clock,
 .degree {
    opacity: 0;
