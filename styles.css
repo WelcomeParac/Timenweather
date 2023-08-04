@@ -31,7 +31,7 @@ body {
 }
 
 #github:hover {
-   color: rgb(7, 119, 170);
+   color: rgb(15, 129, 182);
 }
 
 a {
@@ -315,7 +315,7 @@ a {
    display: flex;
    justify-content: flex-start;
    align-items: center;
-   color: rgb(6, 87, 124);
+   color: rgb(15, 129, 182);
    font-family: "Inter", sans-serif;
 }
 
@@ -333,7 +333,7 @@ a {
 }
 
 .city {
-   background-color: rgb(6, 87, 124);
+   background-color: rgb(15, 129, 182);
    border-radius: 50%;
    position: absolute;
    display: flex;
@@ -346,7 +346,7 @@ a {
 }
 
 .city:hover {
-   background-color: rgb(7, 119, 170);
+   background-color: rgb(13, 99, 139);
    border-radius: 50%;
    position: absolute;
    transform: scale(2);
@@ -359,7 +359,6 @@ a {
    color: white;
    overflow: hidden;
    cursor: pointer;
-
    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
       rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
       rgba(0, 0, 0, 0.09) 0px 32px 16px;
@@ -621,7 +620,7 @@ a {
 
 .searchTerm {
    width: 100%;
-   border: 3px solid rgb(6, 87, 124);
+   border: 3px solid rgb(15, 129, 182);
    border-right: none;
    padding: 5px;
    height: 20px;
@@ -637,8 +636,8 @@ a {
 .searchButton {
    width: 40px;
    height: 36px;
-   border: 1px solid rgb(6, 87, 124);
-   background: rgb(6, 87, 124);
+   border: 1px solid rgb(15, 129, 182);
+   background: rgb(15, 129, 182);
    text-align: center;
    color: #fff;
    border-radius: 0 5px 5px 0;
@@ -655,8 +654,10 @@ a {
    background-color: rgb(7, 119, 170);
    transform: scale(2);
    transition: transform 0.3s ease;
-   /* Add a smooth transition effect */
-   z-index: 1;
+   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+      rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+      rgba(0, 0, 0, 0.09) 0px 32px 16px;
+      z-index: 1;
 }
 
 .highlighted .degree,
