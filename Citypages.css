@@ -31,7 +31,7 @@ body{
     font-size: 50px;
 }
 .MainCityInfo{
-    background-color: rgb(6, 87, 124);
+    background-color: rgb(15, 129, 182);
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
@@ -42,8 +42,8 @@ body{
     
 }
 
-.MainCityInfo:hover{
-    background-color: rgb(6, 87, 124);
+/*.MainCityInfo:hover{
+    background-color: rgb(13, 99, 139);
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
@@ -57,7 +57,7 @@ body{
       rgba(0, 0, 0, 0.09) 0px 32px 16px;
       cursor: pointer;
     
-}
+}*/
 
 
 
@@ -169,7 +169,7 @@ body{
 .HourlyForecastSeven{
     width: 60px;
     height: 100px;
-    background-color: rgb(6, 87, 124);
+    background-color: rgb(15, 129, 182);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -185,7 +185,7 @@ body{
 .DailyForecastSeven{
     width: 60px;
     height: 100px;
-    background-color: rgb(6, 87, 124);
+    background-color: rgb(15, 129, 182);
     display: flex;
     flex-direction: column;
     justify-content: center;
