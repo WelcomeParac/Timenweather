@@ -201,7 +201,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(6, 87, 124);
+    background-color: rgb(15, 129, 182);
 }
 
 #WindSpeed{
@@ -220,7 +220,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(6, 87, 124);
+    background-color: rgb(15, 129, 182);;
 }
 #WindSpeedTitle{
 position: absolute;
