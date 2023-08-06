@@ -126,6 +126,7 @@ function updateClock(cityId, offset) {
 	{ id: 'chicago', offset: -5 },
 	{ id: 'rome', offset: 2 },
 	{ id: 'cairo', offset: 3 },
+	{ id: 'osaka', offset: 9}
   ];
   
   const updateAllClocks = () => {
@@ -148,7 +149,34 @@ function updateClock(cityId, offset) {
 	});
   };
   
-  const cities2 = ['newYork', 'london', 'tokyo', 'paris', 'beijing', 'sydney', 'mexicocity', 'delhi', 'hongkong', 'moscow'];
+  const cities2 = [
+	'newYork', 
+  	'london', 
+  	'tokyo', 
+  	'paris', 
+  	'beijing', 
+  	'sydney', 
+  	'mexicocity', 
+  	'delhi', 
+  	'hongkong', 
+  	'moscow',
+  	'shanghai',
+  	'mumbai',
+  	'buenosaires',
+  	'seoul',
+  	'manila',
+  	'lagos',
+  	'istanbul',
+  	'losangeles',
+ 	'saopaulo',
+  	'albasrah',
+  	'chicago',
+  	'kiev',
+  	'cairo',
+  	'dhaka',
+  	'rome',
+  	'osaka'
+				];
   
   cities2.forEach((city) => {
 	try {
