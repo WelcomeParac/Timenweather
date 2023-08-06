@@ -165,6 +165,10 @@ a {
    font-size: 1.35rem;
 }
 
+#osakatitle{
+   font-size: 1.9rem;
+}
+
 .titlecontainer {
    display: flex;
    justify-content: center;
@@ -220,7 +224,9 @@ a {
 #cairodegrees,
 #cairo,
 #dhakadegrees,
-#dhaka {
+#dhaka,
+#osakadegrees,
+#osaka {
    position: absolute;
 }
 
@@ -228,7 +234,8 @@ a {
 #delhi,
 #shanghai,
 #buenosaires,
-#lagos{
+#lagos,
+#chicago{
    margin-top: 15px;
    font-size: .6rem;
 }
@@ -236,20 +243,23 @@ a {
 #delhidegrees,
 #shanghaidegrees,
 #buenosairesdegrees,
-#lagosdegrees{
+#lagosdegrees,
+#chicagodegrees{
    margin-bottom: 25px;
    font-size: .8rem;
 }
 
 #tokyo,
 #istanbul,
-#cairo{
+#cairo,
+#osaka{
    margin-top: 15px;
    font-size: .75rem;
 }
 #tokyodegrees,
 #istanbuldegrees,
-#cairodegrees{
+#cairodegrees,
+#osakadegrees{
    margin-bottom: 35px;
    font-size: 1rem;
 }
@@ -270,6 +280,61 @@ a {
    font-size: 1.2rem;
 }
 
+#seoul,
+#rome{
+   margin-top: 15px;
+   font-size: 1.3rem;
+}
+
+#seouldegrees,
+#romedegrees{
+   margin-bottom: 65px;
+   font-size: 1.6rem;
+}
+
+#paris,
+#mexicocity,
+#moscow,
+#manila,
+#saopaulo,
+#kiev,
+#dhaka{
+   margin-top: 10px;
+   font-size: 0.47rem;
+}
+
+#parisdegrees,
+#mexicocitydegrees,
+#moscowdegrees,
+#maniladegrees,
+#saopaulodegrees,
+#kievdegrees,
+#dhakadegrees{
+   margin-bottom: 21px;
+   font-size: 0.63rem;
+}
+
+#beijing{
+   margin-top: 15px;
+   font-size: 1.45rem;
+}
+
+#beijingdegrees{
+   margin-bottom: 77px;
+   font-size: 1.75rem;
+}
+
+#sydney,
+#albasrah{
+   margin-top: 5px;
+   font-size: 0.3rem;
+}
+
+#sydneydegrees,
+#albasrahdegrees{
+   margin-bottom: 13px;
+   font-size: 0.41rem;
+}
 
 .clock,
 .degree {
@@ -602,6 +667,15 @@ a {
    margin-left: 44.5%;
    margin-top: 3.5%;
 }
+
+.osaka{
+   width: 125px;
+   height: 125px;
+   font-size: 0.9rem;
+   margin-left: 45%;
+   margin-top: 15.5%;
+}
+
 
 .expanded {
    height: 300px;
