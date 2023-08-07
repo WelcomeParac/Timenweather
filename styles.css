@@ -818,38 +818,8 @@ a {
 }
 
 @media (min-width: 299px) and (max-width: 500px) {
+   .majorCities,
    .city {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-   }
-   .websitename {
-      font-size: 25px;
-   }
-   .top-content {
-      font-family: "Inter", sans-serif;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: -20px;
-   }
-   .heading {
-      text-align: center;
-      font-size: 10px;
-   }
-   .search {
-      margin-top: 20px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 200px;
-   }
-   #github {
-      font-size: 30px;
-      position: absolute;
-      margin-left: -10px;
-      margin-top: -90px;
-   }
-   #user-location {
-      font-size: 15px;
+      transform: scale(.85);
    }
 }
