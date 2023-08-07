@@ -126,7 +126,10 @@ function updateClock(cityId, offset) {
 	{ id: 'chicago', offset: -5 },
 	{ id: 'rome', offset: 2 },
 	{ id: 'cairo', offset: 3 },
-	{ id: 'osaka', offset: 9}
+	{ id: 'osaka', offset: 9},
+	{ id: 'kolkata', offset: -6.5},
+	{ id: 'bogota', offset: -5},
+	{ id: 'karachi', offset: 5}
   ];
   
   const updateAllClocks = () => {
@@ -175,7 +178,10 @@ function updateClock(cityId, offset) {
   	'cairo',
   	'dhaka',
   	'rome',
-  	'osaka'
+  	'osaka',
+	'kolkata',
+	'bogota',
+	'karachi'
 				];
   
   cities2.forEach((city) => {
