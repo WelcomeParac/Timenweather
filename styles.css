@@ -169,6 +169,18 @@ a {
    font-size: 1.9rem;
 }
 
+#kolkatatitle{
+   font-size: 0.9rem;
+}
+
+#bogotatitle{
+   font-size: 1.25rem;
+}
+
+#karachititle{
+   font-size: 1.8rem;
+}
+
 .titlecontainer {
    display: flex;
    justify-content: center;
@@ -226,7 +238,13 @@ a {
 #dhakadegrees,
 #dhaka,
 #osakadegrees,
-#osaka {
+#osaka,
+#kolkatadegrees,
+#kolkata,
+#bogotadegrees,
+#bogota,
+#karachidegrees,
+#karachi {
    position: absolute;
 }
 
@@ -235,7 +253,8 @@ a {
 #shanghai,
 #buenosaires,
 #lagos,
-#chicago{
+#chicago,
+#bogota{
    margin-top: 15px;
    font-size: .6rem;
 }
@@ -244,7 +263,8 @@ a {
 #shanghaidegrees,
 #buenosairesdegrees,
 #lagosdegrees,
-#chicagodegrees{
+#chicagodegrees,
+#bogotadegrees{
    margin-bottom: 25px;
    font-size: .8rem;
 }
@@ -267,7 +287,8 @@ a {
 #london,
 #losangeles,
 #hongkong,
-#mumbai{
+#mumbai,
+#karachi{
    margin-top: 15px;
    font-size: .9rem;
 }
@@ -275,7 +296,8 @@ a {
 #londondegrees,
 #losangelesdegrees,
 #hongkongdegrees,
-#mumbaidegrees{
+#mumbaidegrees,
+#karachidegrees{
    margin-bottom: 40px;
    font-size: 1.2rem;
 }
@@ -298,7 +320,8 @@ a {
 #manila,
 #saopaulo,
 #kiev,
-#dhaka{
+#dhaka,
+#kolkata{
    margin-top: 10px;
    font-size: 0.47rem;
 }
@@ -309,7 +332,8 @@ a {
 #maniladegrees,
 #saopaulodegrees,
 #kievdegrees,
-#dhakadegrees{
+#dhakadegrees,
+#kolkatadegrees{
    margin-bottom: 21px;
    font-size: 0.63rem;
 }
@@ -440,20 +464,23 @@ a {
 .shanghai:hover,
 .buenosaires:hover,
 .lagos:hover,
-.chicago:hover {
+.chicago:hover,
+.bogota:hover {
    transform: scale(2.5);
 }
 
 .london:hover,
 .hongkong:hover,
 .mumbai:hover,
-.losangeles:hover {
+.losangeles:hover,
+.karachi:hover {
    transform: scale(1.75);
 }
 
 .tokyo:hover,
 .istanbul:hover,
-.cairo:hover {
+.cairo:hover,
+.osaka:hover {
    transform: scale(2);
 }
 
@@ -463,7 +490,8 @@ a {
 .manila:hover,
 .saopaulo:hover,
 .kiev:hover,
-.dhaka:hover {
+.dhaka:hover,
+.kolkata:hover {
    transform: scale(3.5);
 }
 
@@ -674,6 +702,30 @@ a {
    font-size: 0.9rem;
    margin-left: 45%;
    margin-top: 15.5%;
+}
+
+.kolkata{
+   width: 75px;
+   height: 75px;
+   font-size: 0.5rem;
+   margin-left: 52%;
+   margin-top: 16%;
+}
+
+.bogota{
+   width: 100px;
+   height: 100px;
+   font-size: 0.8rem;
+   margin-left: 56%;
+   margin-top: 13%;
+}
+
+.karachi{
+   width: 150px;
+   height: 150px;
+   font-size: 1rem;
+   margin-left: 57.5%;
+   margin-top: 5.2%;
 }
 
 
