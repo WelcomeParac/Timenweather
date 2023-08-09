@@ -1,4 +1,4 @@
-# Timenweather (Currently In Progress)
+# Timenweather - IN PROGRESSS
 
 This project is still a work in progress and I will be working on improvements day by day. need not to worry. *thumbs up*
 
@@ -8,7 +8,7 @@ demo here: https://willowy-cassata-fc2741.netlify.app
 
 - Timenweather is a clock app showing a large list of cities across the world and their respective times. It shows the users correct time dependent on their locations. you are able to search for a specific city and if that city is in the large list of cities it will show that clock by itself for you to see, as well as, show a global map that helps you understand where that city is located.
 
-## Road Map: 
+## RoadMap: 
 
 1. Integration of Weather API: Incorporation of weather data into the application, enabling users to obtain a glimpse of a city's current weather conditions alongside its local time.
 
@@ -18,7 +18,7 @@ demo here: https://willowy-cassata-fc2741.netlify.app
 
 4. Redesigned Layout: A planned transition from the current layout to a unique and interactive design, while maintaining the minimalistic essence of the application 
 
-## Technologies Utilized: 
+## Tech Used: 
 
 
 - HTML
@@ -27,7 +27,7 @@ demo here: https://willowy-cassata-fc2741.netlify.app
 
 - Vanilla Javascript
 
-## Motivation behind the Project: 
+## Motivation: 
 
 - Personal Utility: The desire to create a practical application that not only fulfills personal wants and needs but helps other individuals as well.
 
