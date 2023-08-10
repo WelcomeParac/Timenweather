@@ -20,7 +20,6 @@ demo here: https://willowy-cassata-fc2741.netlify.app
 
 ## Tech Used: 
 
-
 - HTML
 
 - CSS
