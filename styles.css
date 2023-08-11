@@ -177,8 +177,32 @@ a {
    font-size: 1.25rem;
 }
 
-#karachititle{
-   font-size: 1.8rem;
+#amsterdamtitle{
+   font-size: 0.85rem;
+}
+
+#berlintitle{
+   font-size: 1rem;
+}
+
+#viennatitle{
+   font-size: 1.6rem;
+}
+
+#sanfranciscotitle{
+   font-size: 1.4rem;
+}
+
+#torontotitle{
+   font-size: 1.4rem;
+}
+
+#hanoititle{
+   font-size: 1rem;
+}
+
+#suvatitle{
+   font-size: 3rem; 
 }
 
 .titlecontainer {
@@ -243,8 +267,20 @@ a {
 #kolkata,
 #bogotadegrees,
 #bogota,
-#karachidegrees,
-#karachi {
+#amsterdamdegrees,
+#amsterdam,
+#berlindegrees,
+#berlin,
+#viennadegrees,
+#vienna,
+#sanfranciscodegrees,
+#sanfrancisco,
+#torontodegrees,
+#toronto,
+#hanoidegrees,
+#hanoi,
+#suvadegrees,
+#suva {
    position: absolute;
 }
 
@@ -254,7 +290,8 @@ a {
 #buenosaires,
 #lagos,
 #chicago,
-#bogota{
+#bogota,
+#amsterdam{
    margin-top: 15px;
    font-size: .6rem;
 }
@@ -264,7 +301,8 @@ a {
 #buenosairesdegrees,
 #lagosdegrees,
 #chicagodegrees,
-#bogotadegrees{
+#bogotadegrees,
+#amsterdamdegrees{
    margin-bottom: 25px;
    font-size: .8rem;
 }
@@ -272,14 +310,18 @@ a {
 #tokyo,
 #istanbul,
 #cairo,
-#osaka{
+#osaka,
+#vienna,
+#toronto{
    margin-top: 15px;
    font-size: .75rem;
 }
 #tokyodegrees,
 #istanbuldegrees,
 #cairodegrees,
-#osakadegrees{
+#osakadegrees,
+#viennadegrees,
+#torontodegrees{
    margin-bottom: 35px;
    font-size: 1rem;
 }
@@ -288,7 +330,7 @@ a {
 #losangeles,
 #hongkong,
 #mumbai,
-#karachi{
+#sanfrancisco{
    margin-top: 15px;
    font-size: .9rem;
 }
@@ -297,19 +339,21 @@ a {
 #losangelesdegrees,
 #hongkongdegrees,
 #mumbaidegrees,
-#karachidegrees{
+#sanfranciscodegrees{
    margin-bottom: 40px;
    font-size: 1.2rem;
 }
 
 #seoul,
-#rome{
+#rome,
+#suva{
    margin-top: 15px;
    font-size: 1.3rem;
 }
 
 #seouldegrees,
-#romedegrees{
+#romedegrees,
+#suvadegrees{
    margin-bottom: 65px;
    font-size: 1.6rem;
 }
@@ -321,7 +365,9 @@ a {
 #saopaulo,
 #kiev,
 #dhaka,
-#kolkata{
+#kolkata,
+#berlin,
+#hanoi{
    margin-top: 10px;
    font-size: 0.47rem;
 }
@@ -333,7 +379,9 @@ a {
 #saopaulodegrees,
 #kievdegrees,
 #dhakadegrees,
-#kolkatadegrees{
+#kolkatadegrees,
+#berlindegrees,
+#hanoidegrees{
    margin-bottom: 21px;
    font-size: 0.63rem;
 }
@@ -465,7 +513,8 @@ a {
 .buenosaires:hover,
 .lagos:hover,
 .chicago:hover,
-.bogota:hover {
+.bogota:hover,
+.amsterdam:hover {
    transform: scale(2.5);
 }
 
@@ -473,14 +522,16 @@ a {
 .hongkong:hover,
 .mumbai:hover,
 .losangeles:hover,
-.karachi:hover {
+.sanfrancisco:hover{
    transform: scale(1.75);
 }
 
 .tokyo:hover,
 .istanbul:hover,
 .cairo:hover,
-.osaka:hover {
+.osaka:hover,
+.vienna:hover,
+.toronto:hover {
    transform: scale(2);
 }
 
@@ -491,12 +542,15 @@ a {
 .saopaulo:hover,
 .kiev:hover,
 .dhaka:hover,
-.kolkata:hover {
+.kolkata:hover,
+.berlin:hover,
+.hanoi:hover {
    transform: scale(3.5);
 }
 
 .seoul:hover,
-.rome:hover {
+.rome:hover,
+.suva:hover {
    transform: scale(1.25);
 }
 
@@ -720,14 +774,61 @@ a {
    margin-top: 13%;
 }
 
-.karachi{
+.amsterdam{
+   width: 100px;
+   height: 100px;
+   font-size: 0.6rem;
+   margin-left: 48%;
+   margin-top: 0%;
+}
+
+.berlin{
+   width: 75px;
+   height: 75px;
+   margin-left: 55.5%;
+   margin-top: 18.5%;
+   font-size: 0.6rem;
+}
+
+.vienna{
+   width: 125px;
+   height: 125px;
+   margin-top: 6.5%;
+   margin-left: 57.5%;
+   font-size: 0.8rem;
+}
+
+.sanfrancisco{
    width: 150px;
    height: 150px;
    font-size: 1rem;
-   margin-left: 57.5%;
-   margin-top: 5.2%;
+   margin-left: 61.85%;
+   margin-top: 11.85%;
 }
 
+.toronto{
+   width: 125px;
+   height: 125px;
+   margin-top: 0.25%;
+   margin-left: 54%;
+   font-size: 0.8rem;
+}
+
+.hanoi{
+   width: 75px;
+   height: 75px;
+   font-size: 0.6rem;
+   margin-left: 59.75%;
+   margin-top: 18.5%;
+}
+
+.suva{
+   width: 200px;
+   height: 200px;
+   font-size: 1.1rem;
+   margin-left: 64.2%;
+   margin-top: 1.6%;
+}
 
 .expanded {
    height: 300px;
