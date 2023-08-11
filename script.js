@@ -10,6 +10,7 @@ function updateClock(cityId, offset) {
 	const year = now.getFullYear() % 100;
 	const clockDiv = document.getElementById(cityId);
 	clockDiv.innerHTML = `${hours}:${minutes} ${amPm} <br> ${monthsArray[month]} ${day} - ${year}`;
+	console.log("Updating clock for", cityId);
   }
   
   function updateUserLocationClock() {
@@ -25,6 +26,8 @@ function updateClock(cityId, offset) {
   }
   	const monthsArray = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
+
+	
   function highlightCity(city) {
 	let isCityHighlighted = false;
 	const cityElements = document.querySelectorAll('.cityname');
@@ -126,11 +129,19 @@ function updateClock(cityId, offset) {
 	{ id: 'chicago', offset: -5 },
 	{ id: 'rome', offset: 2 },
 	{ id: 'cairo', offset: 3 },
-	{ id: 'osaka', offset: 9},
-	{ id: 'kolkata', offset: -6.5},
-	{ id: 'bogota', offset: -5},
-	{ id: 'karachi', offset: 5}
+	{ id: 'osaka', offset: 9 },
+	{ id: 'kolkata', offset: -6.5} ,
+	{ id: 'bogota', offset: -5 },
+	{ id: 'amsterdam', offset: 2 },
+	{ id: 'berlin', offset: 2 },
+	{ id: 'vienna', offset: 2 },
+	{ id: 'sanfrancisco', offset: -7 },
+	{ id: 'toronto', offset: -5 },
+	{ id: 'hanoi', offset: -7 },
+	{ id: 'suva', offset: 12 }
   ];
+  
+
   
   const updateAllClocks = () => {
 	updateUserLocationClock();
@@ -181,7 +192,10 @@ function updateClock(cityId, offset) {
   	'osaka',
 	'kolkata',
 	'bogota',
-	'karachi'
+	'karachi',
+	'amsterdam',
+	'berlin'
+	
 				];
   
   cities2.forEach((city) => {
