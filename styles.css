@@ -205,6 +205,10 @@ a {
    font-size: 3rem; 
 }
 
+#bangkoktitle{
+   font-size: 1.3rem;
+}
+
 .titlecontainer {
    display: flex;
    justify-content: center;
@@ -280,7 +284,9 @@ a {
 #hanoidegrees,
 #hanoi,
 #suvadegrees,
-#suva {
+#suva,
+#bangkokdegrees,
+#bangkok {
    position: absolute;
 }
 
@@ -312,7 +318,8 @@ a {
 #cairo,
 #osaka,
 #vienna,
-#toronto{
+#toronto,
+#bangkok{
    margin-top: 15px;
    font-size: .75rem;
 }
@@ -321,7 +328,8 @@ a {
 #cairodegrees,
 #osakadegrees,
 #viennadegrees,
-#torontodegrees{
+#torontodegrees,
+#bangkokdegrees{
    margin-bottom: 35px;
    font-size: 1rem;
 }
@@ -531,7 +539,8 @@ a {
 .cairo:hover,
 .osaka:hover,
 .vienna:hover,
-.toronto:hover {
+.toronto:hover,
+.bangkok:hover {
    transform: scale(2);
 }
 
@@ -828,6 +837,14 @@ a {
    font-size: 1.1rem;
    margin-left: 64.2%;
    margin-top: 1.6%;
+}
+
+.bangkok{
+   width: 125px;
+   height: 125px;
+   margin-top: 12%;
+   margin-left: 70.25%;
+   font-size: 0.8rem;
 }
 
 .expanded {
