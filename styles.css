@@ -209,6 +209,10 @@ a {
    font-size: 1.3rem;
 }
 
+#zurichtitle{
+   font-size: 1rem;
+}
+
 .titlecontainer {
    display: flex;
    justify-content: center;
@@ -286,7 +290,9 @@ a {
 #suvadegrees,
 #suva,
 #bangkokdegrees,
-#bangkok {
+#bangkok,
+#zurichdegrees,
+#zurich {
    position: absolute;
 }
 
@@ -375,7 +381,8 @@ a {
 #dhaka,
 #kolkata,
 #berlin,
-#hanoi{
+#hanoi,
+#zurich{
    margin-top: 10px;
    font-size: 0.47rem;
 }
@@ -389,7 +396,8 @@ a {
 #dhakadegrees,
 #kolkatadegrees,
 #berlindegrees,
-#hanoidegrees{
+#hanoidegrees,
+#zurichdegrees{
    margin-bottom: 21px;
    font-size: 0.63rem;
 }
@@ -553,7 +561,8 @@ a {
 .dhaka:hover,
 .kolkata:hover,
 .berlin:hover,
-.hanoi:hover {
+.hanoi:hover,
+.zurich:hover {
    transform: scale(3.5);
 }
 
@@ -818,8 +827,8 @@ a {
 .toronto{
    width: 125px;
    height: 125px;
-   margin-top: 0.25%;
-   margin-left: 54%;
+   margin-top: 0.15%;
+   margin-left: 53.5%;
    font-size: 0.8rem;
 }
 
@@ -845,6 +854,14 @@ a {
    margin-top: 12%;
    margin-left: 70.25%;
    font-size: 0.8rem;
+}
+
+.zurich{
+   width: 75px;
+   height: 75px;
+   margin-left: 60.25%;
+   margin-top: 2.5%;
+   font-size: 0.3rem;
 }
 
 .expanded {
