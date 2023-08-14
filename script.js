@@ -139,7 +139,8 @@ function updateClock(cityId, offset) {
 	{ id: 'toronto', offset: -5 },
 	{ id: 'hanoi', offset: -7 },
 	{ id: 'suva', offset: 12 },
-	{ id: 'bangkok', offset: 7 }
+	{ id: 'bangkok', offset: 7 },
+	{ id: 'zurich', offset: 2}
   ];
   
 
