@@ -17,12 +17,13 @@ function updateClock(cityId, offset) {
 	const now = new Date();
 	const hours = now.getHours() % 12 || 12;
 	const minutes = String(now.getMinutes()).padStart(2, '0');
+	const seconds = String(now.getSeconds()).padStart(2, '0');;
 	const amPm = now.getHours() >= 12 ? 'PM' : 'AM';
 	const day = now.getDate();
 	const month = now.getMonth();
 	const year = now.getFullYear();
 	const clockDiv = document.getElementById('user-location');
-	clockDiv.innerHTML = `${hours}:${minutes} ${amPm} - ${monthsArray[month]} ${day}, ${year}`;
+	clockDiv.innerHTML = `${hours}:${minutes}:${seconds} ${amPm} - ${monthsArray[month]} ${day}, ${year}`;
   }
   	const monthsArray = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
@@ -140,7 +141,9 @@ function updateClock(cityId, offset) {
 	{ id: 'hanoi', offset: -7 },
 	{ id: 'suva', offset: 12 },
 	{ id: 'bangkok', offset: 7 },
-	{ id: 'zurich', offset: 2}
+	{ id: 'zurich', offset: 2},
+	{ id: 'dubai', offset: 4},
+	{ id: 'auckland', offset: 12}
   ];
   
 
