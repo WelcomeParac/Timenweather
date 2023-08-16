@@ -53,56 +53,73 @@ function updateClock(cityId, offset) {
   
   function startClocks() {}
   
-  const searchButton = document.querySelector('.searchButton');
-  const searchInput = document.querySelector('.searchTerm');
-  const errorMessage = document.createElement('div');
-  errorMessage.textContent = 'Invalid! Maybe check spelling...you did something wrong...';
-  errorMessage.classList.add('error-message');
-  errorMessage.style.display = 'none';
-  searchButton.parentNode.appendChild(errorMessage);
-  
-  searchButton.addEventListener('click', () => {
-	const searchTerm = searchInput.value.trim();
-	const isCityHighlighted = highlightCity(searchTerm);
-  
-	if (searchTerm === '' || !isCityHighlighted) {
-	  showError();
-	  return;
-	}
-  
-	highlightCity(searchTerm);
-	hideError();
-  });
-  
-  searchInput.addEventListener('keyup', (event) => {
-	if (event.key === 'Enter') {
-	  event.preventDefault();
-	  const searchTerm = searchInput.value.trim();
-	  const isCityHighlighted = highlightCity(searchTerm);
-  
-	  if (searchTerm === '' || !isCityHighlighted) {
-		showError();
-		return;
-	  }
-	
-	  highlightCity(searchTerm);
-	  hideError();
-	}
-  });
-  
-  function showError() {
-	errorMessage.style.display = 'block';
+const searchButton = document.querySelector('.searchButton');
+const searchInput = document.querySelector('.searchTerm');
+const errorMessageEmpty = "I think you're suppose to type a city to find it.....";
+const errorMessageNotFound = 'I know youre old enough to be able to spell right... right??';
 
-	setTimeout(() => {
-		hideError(); },
-		5000);
+const errorMessages = {
+  empty: errorMessageEmpty,
+  notFound: errorMessageNotFound
+};
 
-	}
-  
-  
-  function hideError() {
-	errorMessage.style.display = 'none';
+const errorMessage = document.createElement('div');
+errorMessage.classList.add('error-message');
+errorMessage.style.display = 'none';
+searchInput.parentNode.insertBefore(errorMessage, searchInput.nextSibling);
+
+searchButton.addEventListener('click', () => {
+  const searchTerm = searchInput.value.trim();
+  const isCityHighlighted = highlightCity(searchTerm);
+
+  if (searchTerm === '') {
+    showError('empty');
+    return;
   }
+
+  if (!isCityHighlighted) {
+    showError('notFound');
+    return;
+  }
+
+  hideError();
+  highlightCity(searchTerm);
+});
+
+searchInput.addEventListener('keyup', (event) => {
+  if (event.key === 'Enter') {
+    event.preventDefault();
+    const searchTerm = searchInput.value.trim();
+    const isCityHighlighted = highlightCity(searchTerm);
+
+    if (searchTerm === '') {
+      showError('empty');
+      return;
+    }
+
+    if (!isCityHighlighted) {
+      showError('notFound');
+      return;
+    }
+
+    hideError();
+    highlightCity(searchTerm);
+  }
+});
+
+function showError(type) {
+  errorMessage.textContent = errorMessages[type || 'default'];
+  errorMessage.style.display = 'block';
+
+  setTimeout(() => {
+    hideError();
+  }, 5000);
+}
+
+function hideError() {
+  errorMessage.style.display = 'none';
+}
+  
   
   const cities = [
 	{ id: 'new-york', offset: -4 },
