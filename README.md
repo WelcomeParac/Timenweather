@@ -2,7 +2,7 @@
 
 This project is still a work in progress and I will be working on improvements day by day. need not to worry. *thumbs up*
 
- Live demo here: https://willowy-cassata-fc2741.netlify.app
+ Live demo here: https://willowy-cassata-fc2742.netlify.app
 
 
 ## Project Description: 
