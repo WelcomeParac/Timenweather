@@ -221,6 +221,14 @@ a {
    font-size: 0.5rem;
 }
 
+#santiagotitle{
+   font-size: 0.85rem;
+}
+
+#calgarytitle{
+   font-size: 0.9rem;
+}
+
 .titlecontainer {
    display: flex;
    justify-content: center;
@@ -304,7 +312,11 @@ a {
 #dubaidegrees,
 #dubai,
 #aucklanddegrees,
-#auckland {
+#auckland,
+#santiagodegrees,
+#santiago,
+#calgarydegrees,
+#calgary {
    position: absolute;
 }
 
@@ -396,7 +408,9 @@ a {
 #kolkata,
 #berlin,
 #hanoi,
-#zurich{
+#zurich,
+#santiago,
+#calgary{
    margin-top: 10px;
    font-size: 0.47rem;
 }
@@ -411,7 +425,9 @@ a {
 #kolkatadegrees,
 #berlindegrees,
 #hanoidegrees,
-#zurichdegrees{
+#zurichdegrees,
+#santiagodegrees,
+#calgarydegrees{
    margin-bottom: 21px;
    font-size: 0.63rem;
 }
@@ -579,7 +595,9 @@ a {
 .kolkata:hover,
 .berlin:hover,
 .hanoi:hover,
-.zurich:hover {
+.zurich:hover,
+.santiago:hover,
+.calgary:hover {
    transform: scale(3.5);
 }
 
@@ -869,8 +887,8 @@ a {
 .bangkok{
    width: 125px;
    height: 125px;
-   margin-top: 12%;
-   margin-left: 70.25%;
+   margin-top: 11.75%;
+   margin-left: 70%;
    font-size: 0.8rem;
 }
 
@@ -896,6 +914,22 @@ a {
    margin-left: 63.4%;
    margin-top: 0.5%;
    font-size: 0.3rem;
+}
+
+.santiago{
+   width: 75px;
+   height: 75px;
+   font-size: 0.6rem;
+   margin-left: 68.5%;
+   margin-top: 18%;
+}
+
+.calgary{
+   width: 75px;
+   height: 75px;
+   font-size: 0.6rem;
+   margin-left: 72.75%;
+   margin-top: 18.5%;
 }
 
 .expanded {
@@ -954,6 +988,7 @@ a {
       rgba(0, 0, 0, 0.09) 0px 32px 16px;
       z-index: 1;
 }
+
 
 .highlighted .degree,
 .highlighted .clock {
