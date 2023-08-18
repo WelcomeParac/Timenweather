@@ -162,7 +162,8 @@ function hideError() {
 	{ id: 'dubai', offset: 4},
 	{ id: 'auckland', offset: 12},
 	{ id: 'santiago', offset:-4},
-	{ id: 'calgary', offset: -6}
+	{ id: 'calgary', offset: -6},
+	{ id: 'fukuoka', offset: 9}
   ];
   
 
