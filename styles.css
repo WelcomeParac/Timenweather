@@ -229,6 +229,10 @@ a {
    font-size: 0.9rem;
 }
 
+#fukuokatitle{
+   font-size: 1.1rem;
+}
+
 .titlecontainer {
    display: flex;
    justify-content: center;
@@ -316,7 +320,9 @@ a {
 #santiagodegrees,
 #santiago,
 #calgarydegrees,
-#calgary {
+#calgary,
+#fukuokadegrees,
+#fukuoka {
    position: absolute;
 }
 
@@ -328,7 +334,8 @@ a {
 #chicago,
 #bogota,
 #amsterdam,
-#dubai{
+#dubai,
+#fukuoka{
    margin-top: 15px;
    font-size: .6rem;
 }
@@ -340,7 +347,8 @@ a {
 #chicagodegrees,
 #bogotadegrees,
 #amsterdamdegrees,
-#dubaidegrees{
+#dubaidegrees,
+#fukuokadegrees{
    margin-bottom: 25px;
    font-size: .8rem;
 }
@@ -513,7 +521,7 @@ a {
    transition: all 0.5s ease;
    margin-left: 100px;
    margin-right: 100px;
-   border: solid red 0px;
+   border: solid red 1px;
    height: 50vh;
 }
 
@@ -549,12 +557,6 @@ a {
       rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
-.newYork {
-   width: 100px;
-   height: 100px;
-   font-size: 0.6rem;
-}
-
 .newYork:hover,
 .delhi:hover,
 .shanghai:hover,
@@ -563,7 +565,8 @@ a {
 .chicago:hover,
 .bogota:hover,
 .amsterdam:hover,
-.dubai:hover {
+.dubai:hover,
+.fukuoka:hover {
    transform: scale(2.5);
 }
 
@@ -615,6 +618,12 @@ a {
 .albasrah:hover,
 .auckland:hover {
    transform: scale(5);
+}
+
+.newYork {
+   width: 100px;
+   height: 100px;
+   font-size: 0.6rem;
 }
 
 .london {
@@ -792,7 +801,7 @@ a {
    width: 125px;
    height: 125px;
    font-size: 0.9rem;
-   margin-left: 38%;
+   margin-left: 37.75%;
    margin-top: 0.75%;
 }
 
@@ -930,6 +939,14 @@ a {
    font-size: 0.6rem;
    margin-left: 72.75%;
    margin-top: 18.5%;
+}
+
+.fukuoka{
+   width: 100px;
+   height: 100px;
+   font-size: 0.6rem;
+   margin-left: 76.25%;
+   margin-top: 15.25%;
 }
 
 .expanded {
