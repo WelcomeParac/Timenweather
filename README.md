@@ -24,7 +24,7 @@ Here is Live Demo here: https://willowy-cassata-fc2742.netlify.app
 
 - Vanilla Javascript
 
-## Motivation: 
+## Why: 
 
 - Personal Utility: The desire to create a practical application that not only fulfills personal wants and needs but helps other individuals as well.
 
