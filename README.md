@@ -16,7 +16,7 @@ Here is Live Demo here: https://willowy-cassata-fc2742.netlify.app
 
 3. Enhanced Navigation: Introducing the functionality to make each city entry on the page clickable.
 
-## Tech Used: 
+## What was used: 
 
 - HTML
 
